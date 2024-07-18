@@ -1,0 +1,138 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/15?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_card"
+        },
+        "http:\/\/meridian28.docksal.site\/rest\/relation\/block_content\/provus_card\/field_provus_media_image": [
+            {
+                "href": "http:\/\/meridian28.docksal.site\/media\/8\/edit?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 15
+        }
+    ],
+    "uuid": [
+        {
+            "value": "9be9a4c8-0e11-4bb6-9ac8-b6459efc9aee"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "provus_card"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-10-24T06:20:46+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "Electric Permits (Card) - 1664555555",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-03-25T08:43:23+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "| PROVUS"
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/meridian28.docksal.site\/homepage"
+            },
+            "lang": "en"
+        }
+    ],
+    "field_provus_item_display": [
+        {
+            "value": "provus_card"
+        }
+    ],
+    "field_provus_links": [
+        {
+            "uri": "internal:#",
+            "title": "",
+            "options": {
+                "attributes": {
+                    "target": ""
+                },
+                "icon": "",
+                "class": ""
+            }
+        }
+    ],
+    "_embedded": {
+        "http:\/\/meridian28.docksal.site\/rest\/relation\/block_content\/provus_card\/field_provus_media_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/meridian28.docksal.site\/media\/8\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/meridian28.docksal.site\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "47c8fa7b-bfd4-4597-a992-cea1b3a5828a"
+                    }
+                ]
+            }
+        ]
+    },
+    "field_provus_title": [
+        {
+            "value": "Electric Permits"
+        }
+    ]
+}

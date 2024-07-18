@@ -1,0 +1,232 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/142?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_faq_group"
+        },
+        "http:\/\/meridian28.docksal.site\/rest\/relation\/block_content\/provus_faq_group\/field_provus_items": [
+            {
+                "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/137?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/138?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/130?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/139?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/140?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/141?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 142
+        }
+    ],
+    "uuid": [
+        {
+            "value": "401518ed-d33d-4677-8a82-914b9536f086"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "provus_faq_group"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2024-01-15T05:53:37+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "Description for FAQ Group. (FAQ Group) - 2091133514",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-03-25T08:43:23+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "| PROVUS"
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/meridian28.docksal.site\/homepage"
+            },
+            "lang": "en"
+        }
+    ],
+    "field_provus_body": [
+        {
+            "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+            "format": "basic_html",
+            "processed": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/meridian28.docksal.site\/rest\/relation\/block_content\/provus_faq_group\/field_provus_items": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/137?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_faq_item"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "738afba6-a709-432e-a4a2-6abf0f8b9d96"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/138?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_faq_item"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "74280c5d-5c9e-4ddb-b246-ef47ec5f92b6"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/130?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_faq_item"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "324708d8-0610-4c7f-b01f-0134c5e7490f"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/139?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_faq_item"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c145f14f-ed4a-4d71-b2ea-a9d3d8f89099"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/140?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_faq_item"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fba840ad-fbdc-4b07-8e71-329a2f874a9a"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/141?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_faq_item"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4515a008-4c9c-4511-aa08-c416475d25b1"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "field_provus_title": [
+        {
+            "value": "Description for FAQ Group.",
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{% if jobs %}
+  <ul>
+    {% for job in jobs %}
+      <li class = "career_jobs">
+        <a class="job-title" href="{{ job.url }}">{{ job.title }}</a>
+        <div class= "job-info">{{ job.company }}</div>
+        <div class= "job-info">{{ job.locations }}</div>
+        <div class= "job-info">{{ job.description | raw }}</div>
+        <div class= "job-info">{{ job.salary }}</div>
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <h3>No jobs found.</h3>
+{% endif %}
+
+  {% if pager %}
+  <div class="pagination">
+    <ul class="pagination-links">
+      {% for link in pager %}
+        {{ link }}
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}

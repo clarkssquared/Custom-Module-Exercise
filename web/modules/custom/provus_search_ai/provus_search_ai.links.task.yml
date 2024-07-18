@@ -1,0 +1,16 @@
+provus_search_ai.settings:
+  title: 'General Settings'
+  route_name: provus_search_ai.settings
+  base_route: provus_search_ai.settings
+provus_search_ai.bedrock_settings:
+  title: 'AWS Bedrock'
+  route_name: provus_search_ai.bedrock_settings
+  base_route: provus_search_ai.settings
+provus_search_ai.sync:
+  title: 'Sync Content'
+  route_name: provus_search_ai.sync
+  base_route: provus_search_ai.settings
+provus_search_ai.list:
+  title: 'Logs'
+  route_name: provus_search_ai.list
+  base_route: provus_search_ai.settings

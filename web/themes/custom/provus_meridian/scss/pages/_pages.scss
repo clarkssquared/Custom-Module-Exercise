@@ -1,0 +1,184 @@
+// Person Content Type Page
+
+.person-node {
+  margin-bottom: 2rem;
+  
+  .email {
+    display: flex;
+    align-items: center;
+    gap: rem-calc(16);
+    margin-bottom: rem-calc(10);
+
+    .email-wrapper {
+      background-color: $secondary;
+      border-radius: 50%;
+      height: rem-calc(28);
+      .fa-envelope {
+        padding: rem-calc(6);
+        color: $primary-contrast;
+      }
+    }
+  }
+
+  .phone {
+    display: flex;
+    align-items: center;
+    gap: rem-calc(16);
+    margin-bottom: rem-calc(5);
+    .phone-wrapper {
+      background-color: $secondary;
+      border-radius: 50%;
+      height: rem-calc(28);
+      .fa-phone {
+        padding: rem-calc(6);
+        color: $primary-contrast;
+      }
+    }
+  }
+
+  .person-image img {
+    width: rem-calc(433);
+    border-radius: rem-calc(8);
+  }
+}
+
+// For mobile devices.
+@media (min-width: 300px) and (max-width: 900px) {
+  .person-node {
+    .person-header {
+      .field--name-title {
+       font-size: rem-calc(35);
+       line-height: rem-calc(5);
+      }
+      .field--name-field-provus-titles {
+       font-size: rem-calc(28);
+       line-height: rem-calc(40);
+      }
+    }
+
+    .email {
+      gap: 1px;
+      .field--type-email {
+        margin-left: 7px;
+        font-size: rem-calc(14)
+      }
+    }
+
+    .phone {
+      gap: 1px;
+      .field--type-telephone {
+        margin-left: 7px;
+        font-size: rem-calc(14)
+      }
+    }
+
+    .person-image img {
+      width: rem-calc(500);
+      height: rem-calc(526);
+      border-radius: rem-calc(8);
+    }
+  }
+}
+
+// For iPad devices.
+@media (min-width: 910px) and (max-width: 1400px) {
+  .person-node {
+    .email {
+      gap: 1px;
+      .field--type-email {
+        margin-left: 7px;
+        font-size: rem-calc(14)
+      }
+    }
+
+    .phone {
+      gap: 1px;
+      .field--type-telephone {
+        margin-left: 7px;
+        font-size: rem-calc(14)
+      }
+    }
+  }
+}
+
+.node--type-provus-news {
+  .node--view-mode-full {
+    margin-bottom: 0;
+
+    .node__content {
+      .field--name-field-provus-media-image {
+        padding-left: 2rem;
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    .field--name-field-provus-publish-date {
+      margin-top: 0;
+    }
+
+    .views-blockprovus-news-block-1 {
+      position: relative;
+      &:before {
+        content: "";
+        background: none;
+        width: 100px;
+        position: absolute;
+        border: 5px solid $secondary-shade;
+        position: absolute;
+        top: -2rem;
+      }
+
+      .view-header {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
+
+.node--type-provus-event {
+  .title-container, 
+  .section-event-body {
+    background: $background-lightblue;
+  }
+
+  .title-container {
+    padding-top: 4rem;
+
+    .title {
+      font-size: $h2-font-size;
+    }
+  }
+
+  .section-event-body {
+    padding-bottom: 4rem;
+  }
+
+  .field--name-field-provus-smartdate {
+    color: $text-secondary;
+    margin-bottom: 2rem;
+    font-size: $h4-font-size;
+  }
+
+  .field--name-field-media-image img {
+    width: 100%;
+  }
+
+  .section-event-footer .container .layout .title {
+    border-top: 1px solid $primary;
+    padding-top: 4rem;
+    margin-top: 4rem;
+    
+  }
+
+  .section-upcoming-events {
+    .field--name-field-provus-title {
+      display: none;
+    }
+
+    .view-content.row > h3 {
+      display: none;
+    }
+  }
+}

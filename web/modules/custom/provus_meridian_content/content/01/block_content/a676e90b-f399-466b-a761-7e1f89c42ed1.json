@@ -1,0 +1,100 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/265?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_basic_text"
+        }
+    },
+    "id": [
+        {
+            "value": 265
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a676e90b-f399-466b-a761-7e1f89c42ed1"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "provus_basic_text"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2024-01-15T06:52:57+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "(Basic Text) - 706269992",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-01-15T06:52:57+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "| PROVUS"
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/meridian28.docksal.site\/homepage"
+            },
+            "lang": "en"
+        }
+    ],
+    "field_provus_body": [
+        {
+            "value": "<p>Learn about upcoming news &amp; events throughout the County of Riverside<\/p>",
+            "format": "basic_html",
+            "processed": "<p>Learn about upcoming news &amp; events throughout the County of Riverside<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

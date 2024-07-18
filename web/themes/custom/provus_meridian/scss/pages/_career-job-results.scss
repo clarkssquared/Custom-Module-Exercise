@@ -1,0 +1,61 @@
+.path-career-jobs-results {
+  #block-provus-meridian-content {
+    .career_jobs {
+      margin-bottom: 20px;
+      padding: 20px;
+      list-style-type: none;
+      background: rgba(37, 99, 235, 0.65);
+      -webkit-backdrop-filter: blur(4px);
+      backdrop-filter: blur(4px);
+      border: 1px solid rgba(37, 99, 235, 0.325);
+      border-radius: 10px;
+
+      &:hover {
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        // border-color: #494949 !important;
+        // background: #494949;
+        transition: all 0.3s ease 0s;
+      }
+
+      .job-title {
+        @include text-style-headline-h-3();
+        color: $white;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      .job-info {
+        @include text-style-body-body-2();
+        color: $white;
+      }
+
+    }
+
+    .pagination {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .pagination a {
+      margin: 0 5px;
+      padding: 8px 12px;
+      border: 1px solid #ddd;
+      text-decoration: none;
+      color: #007bff;
+    }
+
+    .pagination a:hover {
+      background-color: #007bff;
+      color: #fff;
+    }
+
+    .pagination a.active {
+      background-color: #007bff;
+      color: #fff;
+      border-color: #007bff;
+    }
+  }
+}

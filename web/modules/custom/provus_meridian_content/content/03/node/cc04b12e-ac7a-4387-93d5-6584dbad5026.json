@@ -1,0 +1,644 @@
+{
+    "moderation_state": [
+        {
+            "value": "published",
+            "lang": "en"
+        }
+    ],
+    "_links": {
+        "self": {
+            "href": "http:\/\/newtheme.docksal.site\/public-safety?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/newtheme.docksal.site\/rest\/type\/node\/provus_landing_page"
+        },
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/node\/provus_landing_page\/revision_uid": [
+            {
+                "href": "http:\/\/newtheme.docksal.site\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/node\/provus_landing_page\/uid": [
+            {
+                "href": "http:\/\/newtheme.docksal.site\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 19
+        }
+    ],
+    "uuid": [
+        {
+            "value": "cc04b12e-ac7a-4387-93d5-6584dbad5026"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "provus_landing_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2023-10-25T01:33:29+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/node\/provus_landing_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/newtheme.docksal.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/newtheme.docksal.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4afaf6ee-b2d0-494e-96c7-fd625c72e3bd"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/node\/provus_landing_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/newtheme.docksal.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/newtheme.docksal.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4afaf6ee-b2d0-494e-96c7-fd625c72e3bd"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Public Safety",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-10-24T09:50:25+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-10-25T01:33:29+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/public-safety",
+            "pid": 19,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "layout_builder__layout": [
+        {
+            "section": {
+                "layout_id": "bootstrap_layout_builder:blb_col_1",
+                "layout_settings": {
+                    "label": "",
+                    "container_wrapper_classes": "",
+                    "container_wrapper_attributes": null,
+                    "container_wrapper": {
+                        "bootstrap_styles": {
+                            "background": {
+                                "background_type": "color"
+                            },
+                            "background_color": {
+                                "class": null
+                            },
+                            "background_media": {
+                                "image": {
+                                    "media_id": null
+                                },
+                                "video": {
+                                    "media_id": null
+                                },
+                                "background_options": {
+                                    "background_position": "center",
+                                    "background_repeat": "no-repeat",
+                                    "background_attachment": "not_fixed",
+                                    "background_size": "cover"
+                                }
+                            },
+                            "padding": {
+                                "class": "_none"
+                            },
+                            "padding_left": {
+                                "class": "_none"
+                            },
+                            "padding_top": {
+                                "class": "_none"
+                            },
+                            "padding_right": {
+                                "class": "_none"
+                            },
+                            "padding_bottom": {
+                                "class": "_none"
+                            },
+                            "margin": {
+                                "class": "_none"
+                            },
+                            "margin_left": {
+                                "class": "_none"
+                            },
+                            "margin_top": {
+                                "class": "_none"
+                            },
+                            "margin_right": {
+                                "class": "_none"
+                            },
+                            "margin_bottom": {
+                                "class": "_none"
+                            }
+                        }
+                    },
+                    "container_wrapper_bg_color_class": "",
+                    "container_wrapper_bg_media": null,
+                    "container": "container",
+                    "section_classes": "",
+                    "section_attributes": null,
+                    "regions_classes": {
+                        "blb_region_col_1": ""
+                    },
+                    "regions_attributes": {
+                        "blb_region_col_1": null
+                    },
+                    "breakpoints": [],
+                    "layout_regions_classes": [],
+                    "remove_gutters": "0",
+                    "context_mapping": []
+                },
+                "components": [
+                    {
+                        "uuid": "540c7ce4-1661-47d1-ab08-0c6c5ea2227e",
+                        "region": "blb_region_col_1",
+                        "configuration": {
+                            "id": "field_block:node:provus_landing_page:body",
+                            "label": "Body",
+                            "label_display": "0",
+                            "provider": "layout_builder",
+                            "context_mapping": {
+                                "entity": "layout_builder.entity",
+                                "view_mode": "view_mode"
+                            },
+                            "formatter": {
+                                "type": "text_default",
+                                "label": "hidden",
+                                "settings": [],
+                                "third_party_settings": []
+                            }
+                        },
+                        "weight": 0,
+                        "additional": []
+                    },
+                    {
+                        "uuid": "3447117c-c7f9-470a-8513-111dd3c129d1",
+                        "region": "blb_region_col_1",
+                        "configuration": {
+                            "id": "inline_block:provus_large_banner",
+                            "label": "%AutoEntityLabel%",
+                            "label_display": false,
+                            "provider": "layout_builder",
+                            "view_mode": "full",
+                            "block_serialized": null,
+                            "context_mapping": [],
+                            "type": "provus_large_banner",
+                            "uuid": "4f97178e-02b5-4dd5-ba1a-2b82c25c6d79",
+                            "block_uuid": "4f97178e-02b5-4dd5-ba1a-2b82c25c6d79"
+                        },
+                        "weight": 1,
+                        "additional": []
+                    }
+                ],
+                "third_party_settings": []
+            }
+        },
+        {
+            "section": {
+                "layout_id": "bootstrap_layout_builder:blb_col_2",
+                "layout_settings": {
+                    "label": "",
+                    "container_wrapper_classes": "",
+                    "container_wrapper_attributes": null,
+                    "container_wrapper": {
+                        "bootstrap_styles": {
+                            "background": {
+                                "background_type": "color"
+                            },
+                            "background_color": {
+                                "class": "bg-primary"
+                            },
+                            "background_media": {
+                                "image": {
+                                    "media_id": null
+                                },
+                                "video": {
+                                    "media_id": null
+                                },
+                                "background_options": {
+                                    "background_position": "center",
+                                    "background_repeat": "no-repeat",
+                                    "background_attachment": "not_fixed",
+                                    "background_size": "cover"
+                                }
+                            },
+                            "padding": {
+                                "class": "_none"
+                            },
+                            "padding_left": {
+                                "class": "_none"
+                            },
+                            "padding_top": {
+                                "class": "_none"
+                            },
+                            "padding_right": {
+                                "class": "_none"
+                            },
+                            "padding_bottom": {
+                                "class": "_none"
+                            },
+                            "margin": {
+                                "class": "_none"
+                            },
+                            "margin_left": {
+                                "class": "_none"
+                            },
+                            "margin_top": {
+                                "class": "_none"
+                            },
+                            "margin_right": {
+                                "class": "_none"
+                            },
+                            "margin_bottom": {
+                                "class": "bs-mb-4"
+                            }
+                        }
+                    },
+                    "container_wrapper_bg_color_class": "",
+                    "container_wrapper_bg_media": null,
+                    "container": "container",
+                    "section_classes": "",
+                    "section_attributes": null,
+                    "regions_classes": {
+                        "blb_region_col_1": "",
+                        "blb_region_col_2": ""
+                    },
+                    "regions_attributes": {
+                        "blb_region_col_1": null,
+                        "blb_region_col_2": null
+                    },
+                    "breakpoints": {
+                        "desktop": "blb_col_6_6",
+                        "tablet": "blb_col_6_6",
+                        "mobile": "blb_col_12"
+                    },
+                    "layout_regions_classes": {
+                        "blb_region_col_1": [
+                            "col-lg-6",
+                            "col-md-6",
+                            "col-12"
+                        ],
+                        "blb_region_col_2": [
+                            "col-lg-6",
+                            "col-md-6",
+                            "col-12"
+                        ]
+                    },
+                    "remove_gutters": "0",
+                    "context_mapping": []
+                },
+                "components": [
+                    {
+                        "uuid": "8c73e48b-9a06-49f0-ac3e-1a5905cb4c23",
+                        "region": "blb_region_col_1",
+                        "configuration": {
+                            "id": "inline_block:provus_heading",
+                            "label": "%AutoEntityLabel%",
+                            "label_display": false,
+                            "provider": "layout_builder",
+                            "view_mode": "full",
+                            "block_serialized": null,
+                            "context_mapping": [],
+                            "type": "provus_heading",
+                            "uuid": "50f677ed-90e4-428e-b445-ab0db1575d68",
+                            "block_uuid": "50f677ed-90e4-428e-b445-ab0db1575d68"
+                        },
+                        "weight": 0,
+                        "additional": []
+                    },
+                    {
+                        "uuid": "dad29450-c2e3-45bb-8c3d-8e45aefde894",
+                        "region": "blb_region_col_1",
+                        "configuration": {
+                            "id": "inline_block:provus_basic_text",
+                            "label": "%AutoEntityLabel%",
+                            "label_display": false,
+                            "provider": "layout_builder",
+                            "view_mode": "full",
+                            "block_serialized": null,
+                            "context_mapping": [],
+                            "type": "provus_basic_text",
+                            "uuid": "4485c57a-f875-4209-8734-18efac528a04",
+                            "block_uuid": "4485c57a-f875-4209-8734-18efac528a04"
+                        },
+                        "weight": 1,
+                        "additional": []
+                    },
+                    {
+                        "uuid": "4ef0e7ba-fe5a-4dd8-9607-38f3433d4f02",
+                        "region": "blb_region_col_2",
+                        "configuration": {
+                            "id": "inline_block:provus_media",
+                            "label": "%AutoEntityLabel%",
+                            "label_display": false,
+                            "provider": "layout_builder",
+                            "view_mode": "full",
+                            "block_serialized": null,
+                            "context_mapping": [],
+                            "type": "provus_media",
+                            "uuid": "e84e215a-6ea8-4e8a-af73-2d5b343886d2",
+                            "block_uuid": "e84e215a-6ea8-4e8a-af73-2d5b343886d2"
+                        },
+                        "weight": 0,
+                        "additional": []
+                    }
+                ],
+                "third_party_settings": []
+            }
+        },
+        {
+            "section": {
+                "layout_id": "bootstrap_layout_builder:blb_col_1",
+                "layout_settings": {
+                    "label": "",
+                    "container_wrapper_classes": "",
+                    "container_wrapper_attributes": null,
+                    "container_wrapper": {
+                        "bootstrap_styles": {
+                            "background": {
+                                "background_type": null
+                            },
+                            "background_color": {
+                                "class": null
+                            },
+                            "background_media": {
+                                "image": {
+                                    "media_id": null
+                                },
+                                "video": {
+                                    "media_id": null
+                                },
+                                "background_options": {
+                                    "background_position": "center",
+                                    "background_repeat": "no-repeat",
+                                    "background_attachment": "not_fixed",
+                                    "background_size": "cover"
+                                }
+                            },
+                            "padding": {
+                                "class": "_none"
+                            },
+                            "padding_left": {
+                                "class": "_none"
+                            },
+                            "padding_top": {
+                                "class": "_none"
+                            },
+                            "padding_right": {
+                                "class": "_none"
+                            },
+                            "padding_bottom": {
+                                "class": "_none"
+                            },
+                            "margin": {
+                                "class": "bs-m-4"
+                            },
+                            "margin_left": {
+                                "class": "_none"
+                            },
+                            "margin_top": {
+                                "class": "_none"
+                            },
+                            "margin_right": {
+                                "class": "_none"
+                            },
+                            "margin_bottom": {
+                                "class": "_none"
+                            }
+                        }
+                    },
+                    "container_wrapper_bg_color_class": "",
+                    "container_wrapper_bg_media": null,
+                    "container": "container",
+                    "section_classes": "",
+                    "section_attributes": null,
+                    "regions_classes": {
+                        "blb_region_col_1": ""
+                    },
+                    "regions_attributes": {
+                        "blb_region_col_1": null
+                    },
+                    "breakpoints": [],
+                    "layout_regions_classes": [],
+                    "remove_gutters": "0",
+                    "context_mapping": []
+                },
+                "components": [
+                    {
+                        "uuid": "e4b348ae-c742-48a9-a17e-94f61ed100f6",
+                        "region": "blb_region_col_1",
+                        "configuration": {
+                            "id": "inline_block:provus_heading",
+                            "label": "%AutoEntityLabel%",
+                            "label_display": false,
+                            "provider": "layout_builder",
+                            "view_mode": "full",
+                            "block_serialized": null,
+                            "context_mapping": [],
+                            "type": "provus_heading",
+                            "uuid": "a96ecd35-19fc-45e3-8ffe-5a8eb00b18fa",
+                            "block_uuid": "a96ecd35-19fc-45e3-8ffe-5a8eb00b18fa"
+                        },
+                        "weight": 0,
+                        "additional": []
+                    },
+                    {
+                        "uuid": "274885b1-946f-48e8-9ca1-ab64160d69e1",
+                        "region": "blb_region_col_1",
+                        "configuration": {
+                            "id": "inline_block:provus_group",
+                            "label": "%AutoEntityLabel%",
+                            "label_display": false,
+                            "provider": "layout_builder",
+                            "view_mode": "full",
+                            "block_serialized": null,
+                            "context_mapping": [],
+                            "type": "provus_group",
+                            "uuid": "81e05b09-923d-433e-9d37-ec66d9806a71",
+                            "block_uuid": "81e05b09-923d-433e-9d37-ec66d9806a71"
+                        },
+                        "weight": 1,
+                        "additional": []
+                    }
+                ],
+                "third_party_settings": []
+            }
+        },
+        {
+            "section": {
+                "layout_id": "bootstrap_layout_builder:blb_col_1",
+                "layout_settings": {
+                    "label": "",
+                    "container_wrapper_classes": "subscription-form",
+                    "container_wrapper_attributes": null,
+                    "container_wrapper": {
+                        "bootstrap_styles": {
+                            "background": {
+                                "background_type": "video"
+                            },
+                            "background_color": {
+                                "class": null
+                            },
+                            "background_media": {
+                                "image": {
+                                    "media_id": ""
+                                },
+                                "video": {
+                                    "media_id": ""
+                                },
+                                "background_options": {
+                                    "background_position": "center",
+                                    "background_repeat": "no-repeat",
+                                    "background_attachment": "not_fixed",
+                                    "background_size": "cover"
+                                }
+                            },
+                            "padding": {
+                                "class": "_none"
+                            },
+                            "padding_left": {
+                                "class": "_none"
+                            },
+                            "padding_top": {
+                                "class": "_none"
+                            },
+                            "padding_right": {
+                                "class": "_none"
+                            },
+                            "padding_bottom": {
+                                "class": "_none"
+                            },
+                            "margin": {
+                                "class": "_none"
+                            },
+                            "margin_left": {
+                                "class": "_none"
+                            },
+                            "margin_top": {
+                                "class": "_none"
+                            },
+                            "margin_right": {
+                                "class": "_none"
+                            },
+                            "margin_bottom": {
+                                "class": "_none"
+                            }
+                        }
+                    },
+                    "container_wrapper_bg_color_class": "",
+                    "container_wrapper_bg_media": null,
+                    "container": "container",
+                    "section_classes": "",
+                    "section_attributes": null,
+                    "regions_classes": {
+                        "blb_region_col_1": ""
+                    },
+                    "regions_attributes": {
+                        "blb_region_col_1": null
+                    },
+                    "breakpoints": [],
+                    "layout_regions_classes": [],
+                    "remove_gutters": "0",
+                    "context_mapping": []
+                },
+                "components": [
+                    {
+                        "uuid": "d08e532e-1f56-412f-b0c3-0f3bef0d9091",
+                        "region": "blb_region_col_1",
+                        "configuration": {
+                            "id": "inline_block:webform",
+                            "label": "Subscribe to the MCPSD Newsletter",
+                            "label_display": 0,
+                            "provider": "layout_builder",
+                            "view_mode": "full",
+                            "block_serialized": null,
+                            "context_mapping": [],
+                            "type": "webform",
+                            "uuid": "293bbf07-88d8-4454-958f-ba46c317c832",
+                            "block_uuid": "293bbf07-88d8-4454-958f-ba46c317c832"
+                        },
+                        "weight": 0,
+                        "additional": []
+                    }
+                ],
+                "third_party_settings": []
+            }
+        }
+    ]
+}

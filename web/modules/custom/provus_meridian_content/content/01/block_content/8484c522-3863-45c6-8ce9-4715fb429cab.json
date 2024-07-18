@@ -1,0 +1,102 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/179?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_stat_item"
+        }
+    },
+    "id": [
+        {
+            "value": 179
+        }
+    ],
+    "uuid": [
+        {
+            "value": "8484c522-3863-45c6-8ce9-4715fb429cab"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "provus_stat_item"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-10-24T04:39:34+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "88 (Stat Item) - 1739546415",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-10-24T04:39:34+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "| PROVUS"
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/meridian28.docksal.site\/homepage"
+            },
+            "lang": "en"
+        }
+    ],
+    "field_provus_description": [
+        {
+            "value": "Cities"
+        }
+    ],
+    "field_provus_title": [
+        {
+            "value": "88",
+            "lang": "en"
+        }
+    ]
+}

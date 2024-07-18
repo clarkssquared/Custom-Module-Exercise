@@ -1,0 +1,403 @@
+uuid: 0a4b123b-9586-4bfc-a668-d9214a241660
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.provus_group_automatic
+    - block_content.type.provus_heading
+    - core.entity_view_mode.node.full
+    - field.field.node.provus_event.body
+    - field.field.node.provus_event.field_metatag
+    - field.field.node.provus_event.field_provus_media_image
+    - field.field.node.provus_event.field_provus_smartdate
+    - field.field.node.provus_event.field_provus_tax_cat_event
+    - node.type.provus_event
+    - views.view.provus_advanced_events
+  module:
+    - bootstrap_layout_builder
+    - layout_builder
+    - metatag
+    - smart_date_recur
+    - text
+    - user
+    - views
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: 'bootstrap_layout_builder:blb_col_2'
+        layout_settings:
+          label: ''
+          container_wrapper_classes: section-event-body
+          container_wrapper_attributes: null
+          container_wrapper:
+            bootstrap_styles:
+              background:
+                background_type: video
+              background_color:
+                class: null
+              background_media:
+                image:
+                  media_id: null
+                video:
+                  media_id: null
+                background_options:
+                  background_position: center
+                  background_repeat: no-repeat
+                  background_attachment: not_fixed
+                  background_size: cover
+              padding:
+                class: _none
+              padding_left:
+                class: _none
+              padding_top:
+                class: _none
+              padding_right:
+                class: _none
+              padding_bottom:
+                class: _none
+              margin:
+                class: _none
+              margin_left:
+                class: _none
+              margin_top:
+                class: _none
+              margin_right:
+                class: _none
+              margin_bottom:
+                class: _none
+          container_wrapper_bg_color_class: ''
+          container_wrapper_bg_media: null
+          container: container
+          section_classes: ''
+          section_attributes: null
+          regions_classes:
+            blb_region_col_1: ''
+            blb_region_col_2: ''
+          regions_attributes:
+            blb_region_col_1: null
+            blb_region_col_2: null
+          breakpoints:
+            desktop: blb_col_6_6
+            tablet: blb_col_6_6
+            mobile: blb_col_12
+          layout_regions_classes:
+            blb_region_col_1:
+              - col-lg-6
+              - col-md-6
+              - col-12
+            blb_region_col_2:
+              - col-lg-6
+              - col-md-6
+              - col-12
+          remove_gutters: '0'
+          context_mapping: {  }
+        components:
+          -
+            uuid: efaee0bf-8508-4abb-ac8a-37343ec0c728
+            region: blb_region_col_1
+            configuration:
+              id: 'field_block:node:provus_event:field_provus_smartdate'
+              label: Date
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: smartdate_default
+                label: hidden
+                settings:
+                  timezone_override: ''
+                  format: default
+                  force_chronological: false
+                  add_classes: false
+                  time_wrapper: true
+                  localize: false
+                  parts:
+                    start: start
+                    end: end
+                    duration: '0'
+                  duration:
+                    separator: ' | '
+                    unit: ''
+                    decimals: 2
+                    suffix: h
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          -
+            uuid: 785c3424-2ea1-4056-925b-5ee900fe45c4
+            region: blb_region_col_1
+            configuration:
+              id: 'field_block:node:provus_event:body'
+              label: Body
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+          -
+            uuid: b239dc68-b42a-4c34-ac89-64e952e08f1d
+            region: blb_region_col_2
+            configuration:
+              id: 'field_block:node:provus_event:field_provus_media_image'
+              label: Image
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: entity_reference_entity_view
+                label: visually_hidden
+                settings:
+                  view_mode: default
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+      -
+        layout_id: 'bootstrap_layout_builder:blb_col_1'
+        layout_settings:
+          label: ''
+          container_wrapper_classes: ''
+          container_wrapper_attributes: null
+          container_wrapper:
+            bootstrap_styles:
+              background:
+                background_type: null
+              background_color:
+                class: null
+              background_media:
+                image:
+                  media_id: null
+                video:
+                  media_id: null
+                background_options:
+                  background_position: center
+                  background_repeat: no-repeat
+                  background_attachment: not_fixed
+                  background_size: cover
+              padding:
+                class: _none
+              padding_left:
+                class: _none
+              padding_top:
+                class: _none
+              padding_right:
+                class: _none
+              padding_bottom:
+                class: _none
+              margin:
+                class: _none
+              margin_left:
+                class: _none
+              margin_top:
+                class: _none
+              margin_right:
+                class: _none
+              margin_bottom:
+                class: _none
+          container_wrapper_bg_color_class: ''
+          container_wrapper_bg_media: null
+          container: container
+          section_classes: ''
+          section_attributes: null
+          regions_classes:
+            blb_region_col_1: ''
+          regions_attributes:
+            blb_region_col_1: null
+          breakpoints: {  }
+          layout_regions_classes: {  }
+          remove_gutters: '0'
+          context_mapping: {  }
+        components:
+          -
+            uuid: 5b3572ff-03c0-452a-8634-c84ae7636943
+            region: blb_region_col_1
+            configuration:
+              id: 'inline_block:provus_heading'
+              label: '%AutoEntityLabel%'
+              label_display: ''
+              provider: layout_builder
+              view_mode: full
+              context_mapping: {  }
+              block_revision_id: 458
+              block_serialized: null
+              type: provus_heading
+              uuid: 751e2d64-fb85-4cd1-b5a0-11aaa14fe3cb
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+      -
+        layout_id: 'bootstrap_layout_builder:blb_col_2'
+        layout_settings:
+          label: ''
+          container_wrapper_classes: section-upcoming-events
+          container_wrapper_attributes: null
+          container_wrapper:
+            bootstrap_styles:
+              background:
+                background_type: null
+              background_color:
+                class: null
+              background_media:
+                image:
+                  media_id: null
+                video:
+                  media_id: null
+                background_options:
+                  background_position: center
+                  background_repeat: no-repeat
+                  background_attachment: not_fixed
+                  background_size: cover
+              padding:
+                class: _none
+              padding_left:
+                class: _none
+              padding_top:
+                class: _none
+              padding_right:
+                class: _none
+              padding_bottom:
+                class: _none
+              margin:
+                class: _none
+              margin_left:
+                class: _none
+              margin_top:
+                class: _none
+              margin_right:
+                class: _none
+              margin_bottom:
+                class: _none
+          container_wrapper_bg_color_class: ''
+          container_wrapper_bg_media: null
+          container: container
+          section_classes: ''
+          section_attributes: null
+          regions_classes:
+            blb_region_col_1: ''
+            blb_region_col_2: ''
+          regions_attributes:
+            blb_region_col_1: null
+            blb_region_col_2: null
+          breakpoints:
+            desktop: blb_col_6_6
+            tablet: blb_col_6_6
+            mobile: blb_col_12
+          layout_regions_classes:
+            blb_region_col_1:
+              - col-lg-6
+              - col-md-6
+              - col-12
+            blb_region_col_2:
+              - col-lg-6
+              - col-md-6
+              - col-12
+          remove_gutters: '0'
+          context_mapping: {  }
+        components:
+          -
+            uuid: 11eff9e9-3a37-4981-9851-afe0df14d0d3
+            region: blb_region_col_2
+            configuration:
+              id: 'views_block:provus_advanced_events-block_events_upcoming'
+              label: ''
+              label_display: '0'
+              provider: views
+              context_mapping: {  }
+              views_label: ''
+              items_per_page: none
+            weight: 0
+            additional: {  }
+          -
+            uuid: 8a88ae7a-7c4b-48cb-9859-9bcf469a5673
+            region: blb_region_col_1
+            configuration:
+              id: 'inline_block:provus_group_automatic'
+              label: '%AutoEntityLabel%'
+              label_display: ''
+              provider: layout_builder
+              view_mode: full
+              context_mapping: {  }
+              block_revision_id: 459
+              block_serialized: null
+              type: provus_group_automatic
+              uuid: e86db081-e40d-467d-98f0-92a2ab731a78
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+_core:
+  default_config_hash: Qc793-GfeU6YUI3_c5jCXXqfcWsMvoopvV3OLQ9MHtY
+id: node.provus_event.full
+targetEntityType: node
+bundle: provus_event
+mode: full
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  content_moderation_control:
+    settings: {  }
+    third_party_settings: {  }
+    weight: -20
+    region: content
+  field_metatag:
+    type: metatag_empty_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_provus_smartdate:
+    type: smartdate_recurring
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: medium
+      format: default
+      force_chronological: false
+      add_classes: false
+      time_wrapper: true
+      past_display: 0
+      upcoming_display: 3
+      show_next: false
+      parts:
+        start: start
+        end: end
+        duration: 0
+      duration:
+        separator: ' | '
+        unit: ''
+        decimals: '2'
+        suffix: h
+      current_upcoming: '1'
+      localize: 0
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  addtoany: true
+  field_provus_media_image: true
+  field_provus_tax_cat_event: true
+  search_api_excerpt: true

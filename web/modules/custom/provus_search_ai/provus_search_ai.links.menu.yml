@@ -1,0 +1,22 @@
+provus_search_ai.settings:
+  title: 'Provus Search AI Settings'
+  description: Manage Provus Search AI settings, API keys.
+  route_name: provus_search_ai.settings
+  parent: system.admin_config_search
+provus_search_ai.bedrock_settings:
+  title: 'AWS Bedrock Settings'
+  description: 'AWS Bedrock API Settings'
+  route_name: provus_search_ai.bedrock_settings
+  parent: provus_search_ai.settings
+provus_search_ai.sync:
+  title: 'Logs'
+  route_name: provus_search_ai.sync
+  description: 'Sync Content'
+  parent: provus_search_ai.settings
+  weight: 10
+provus_search_ai.list:
+  title: 'Logs'
+  route_name: provus_search_ai.list
+  description: 'Logs'
+  parent: provus_search_ai.settings
+  weight: 10

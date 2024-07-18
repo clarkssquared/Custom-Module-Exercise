@@ -1,0 +1,12 @@
+{# careerjet-search-results.html.twig #}
+
+{% if results %}
+  <h2>Search Results:</h2>
+  <ul>
+    {% for job in results %}
+      <li>{{ job.title }}</li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p>No results found.</p>
+{% endif %}

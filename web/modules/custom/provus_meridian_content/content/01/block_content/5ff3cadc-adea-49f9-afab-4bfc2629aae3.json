@@ -1,0 +1,216 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/311?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_group"
+        },
+        "http:\/\/meridian28.docksal.site\/rest\/relation\/block_content\/provus_group\/field_provus_block_items": [
+            {
+                "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/172?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/15?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/206?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/90?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/157?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/256?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 311
+        }
+    ],
+    "uuid": [
+        {
+            "value": "5ff3cadc-adea-49f9-afab-4bfc2629aae3"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "provus_group"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-10-24T06:14:09+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "(Group) - 224434110",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-03-25T08:43:23+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "| PROVUS"
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/meridian28.docksal.site\/homepage"
+            },
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/meridian28.docksal.site\/rest\/relation\/block_content\/provus_group\/field_provus_block_items": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/172?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_card"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fbba3392-517a-44d8-82e4-a1c442dbab59"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/15?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_card"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9be9a4c8-0e11-4bb6-9ac8-b6459efc9aee"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/206?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_card"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "58fa2acc-9816-4c8c-9efa-1fd22e940ea6"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/90?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_card"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9892beba-2676-457c-89e8-4b0441638f18"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/157?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_card"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e8be9e33-56b0-46fd-96b6-764ea9e775d1"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/256?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_card"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c959aee2-67a8-45ac-a5d9-7c9248ffe31d"
+                    }
+                ]
+            }
+        ]
+    },
+    "field_provus_group_display": [
+        {
+            "value": "grid_3"
+        }
+    ],
+    "field_provus_item_display": [
+        {
+            "value": "provus_card_bg",
+            "lang": "en"
+        }
+    ]
+}

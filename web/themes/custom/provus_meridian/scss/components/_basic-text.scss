@@ -1,0 +1,16 @@
+// Styling for Basic Text Block.
+
+.block-provus-basic-text p{
+  @include text-style-body-body-1();
+  color: $text-secondary;
+}
+
+.block-provus-basic-text ul {
+  @include text-style-body-body-1();
+  color: $text-secondary;
+}
+
+.block-provus-basic-text ul li {
+  @include text-style-body-body-1();
+  color: $text-secondary;
+}

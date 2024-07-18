@@ -1,0 +1,12 @@
+.path-government-departments {
+  .card {
+    @media only screen and (max-width: 1200px) {
+      .card-body {
+        width: 162px;
+        .card-title {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}

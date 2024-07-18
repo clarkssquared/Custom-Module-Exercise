@@ -1,0 +1,165 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/newtheme.docksal.site\/media\/20\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/newtheme.docksal.site\/rest\/type\/media\/image"
+        },
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/media\/image\/uid": [
+            {
+                "href": "http:\/\/newtheme.docksal.site\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/media\/image\/thumbnail": [
+            {
+                "href": "",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/media\/image\/field_media_image": [
+            {
+                "href": "",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 20
+        }
+    ],
+    "uuid": [
+        {
+            "value": "b7d7a357-9e0f-4451-aecc-926804b594ce"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-10-24T09:21:23+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/media\/image\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/newtheme.docksal.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/newtheme.docksal.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4afaf6ee-b2d0-494e-96c7-fd625c72e3bd"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/media\/image\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/newtheme.docksal.site\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a014458f-0f39-4deb-b891-a8cd14357961"
+                    }
+                ],
+                "lang": "en",
+                "alt": "A picture of a hand that looks like scribbling",
+                "title": null,
+                "width": "720",
+                "height": "180"
+            }
+        ],
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/media\/image\/field_media_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/newtheme.docksal.site\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a014458f-0f39-4deb-b891-a8cd14357961"
+                    }
+                ],
+                "lang": "en",
+                "alt": "A picture of a hand that looks like scribbling",
+                "title": "",
+                "width": "720",
+                "height": "180"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "result.png",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-10-24T09:21:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-10-24T09:21:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ]
+}

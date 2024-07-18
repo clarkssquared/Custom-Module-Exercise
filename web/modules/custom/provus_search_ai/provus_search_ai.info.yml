@@ -1,0 +1,8 @@
+name: Provus Search AI
+type: module
+description: 'Provus Search AI'
+package: Provus
+core_version_requirement: ^9 || ^10
+dependencies:
+  - drupal:field
+  - drupal:views

@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - google_translator
+  theme:
+    - provus_meridian
+id: provus_meridian_googletranslator
+theme: provus_meridian
+region: secondary_menu
+weight: -8
+provider: null
+plugin: google_translator
+settings:
+  id: google_translator
+  label: 'Translate this page'
+  label_display: ''
+  provider: google_translator
+visibility: {  }

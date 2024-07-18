@@ -1,0 +1,100 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/152?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_basic_text"
+        }
+    },
+    "id": [
+        {
+            "value": 152
+        }
+    ],
+    "uuid": [
+        {
+            "value": "53c256bd-a67b-4693-871e-927aa345372c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "provus_basic_text"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2024-01-15T07:15:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "(Basic Text) - 1037841543",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-01-15T07:55:10+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "| PROVUS"
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/meridian28.docksal.site\/homepage"
+            },
+            "lang": "en"
+        }
+    ],
+    "field_provus_body": [
+        {
+            "value": "<p><strong>November 23, 2023<\/strong><\/p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt tincidunt sodales. Aenean volutpat quam et pharetra rutrum. Suspendisse massa urna, lobortis nec tempus in, finibus ac metus. Sed sodales lacus vel ligula posuere dapibus. Morbi porttitor mollis lorem, ac feugiat felis ornare a. Curabitur et nibh mattis, malesuada libero nec, mattis enim. In tortor ligula, eleifend et urna quis, suscipit lobortis felis. Suspendisse ac semper diam. Pellentesque rhoncus quam at risus sagittis vestibulum. In condimentum accumsan metus a venenatis. Nunc in fermentum elit.<br>\u2028<br>Morbi porttitor mollis lorem, ac feugiat felis ornare a. Curabitur et nibh mattis, malesuada libero nec, mattis enim. In tortor ligula, eleifend et urna quis, suscipit lobortis felis. Suspendisse ac semper diam. Pellentesque rhoncus quam at risus sagittis vestibulum. In condimentum accumsan metus a venenatis. Nunc in fermentum elit.<br>&nbsp;<\/p><p>The College, Career, and Community Writers Program relies on three interconnected elements to support teachers in making substantial shifts in their practice: professional development, curricular resources, and formative assessment. During 45 hours of professional development per year, teachers undertake the kinds of reading and writing assignments they will later give their students and work alongside local Writing Project teacher-leaders to develop plans for integrating these new teaching and learning approaches in their classrooms.<\/p><p>McWilliams notes that the experience \u201cdemonstrated how to interact with the students\u201d and gave her confidence that if C3WP \u201cworked for me, it will work for my students.\u201d Further, the professional development seeks to build teachers\u2019 understanding of underlying principles of teaching and learning argument writing. For example, C3WP\u2019s curricular materials illustrate how short instructional sequences that focus on a limited set of skills or practices can build over time and culminate in substantial projects like those undertaken by McWilliams\u2019 and Olsen\u2019s students. C3WP\u2019s professional development approach engages teachers in understanding such principles and supports sustainability by building teachers\u2019 ownership of the practices.<\/p><p>&nbsp;<\/p><blockquote><p>\u201cLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi\u201d<\/p><p>&nbsp;&nbsp;&nbsp;&nbsp;\u2014Dr. Lorem Ipsum<\/p><\/blockquote>",
+            "format": "full_html",
+            "processed": "<p><strong>November 23, 2023<\/strong><\/p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt tincidunt sodales. Aenean volutpat quam et pharetra rutrum. Suspendisse massa urna, lobortis nec tempus in, finibus ac metus. Sed sodales lacus vel ligula posuere dapibus. Morbi porttitor mollis lorem, ac feugiat felis ornare a. Curabitur et nibh mattis, malesuada libero nec, mattis enim. In tortor ligula, eleifend et urna quis, suscipit lobortis felis. Suspendisse ac semper diam. Pellentesque rhoncus quam at risus sagittis vestibulum. In condimentum accumsan metus a venenatis. Nunc in fermentum elit.<br \/>\u2028<br \/>Morbi porttitor mollis lorem, ac feugiat felis ornare a. Curabitur et nibh mattis, malesuada libero nec, mattis enim. In tortor ligula, eleifend et urna quis, suscipit lobortis felis. Suspendisse ac semper diam. Pellentesque rhoncus quam at risus sagittis vestibulum. In condimentum accumsan metus a venenatis. Nunc in fermentum elit.<br \/>\u00a0<\/p><p>The College, Career, and Community Writers Program relies on three interconnected elements to support teachers in making substantial shifts in their practice: professional development, curricular resources, and formative assessment. During 45 hours of professional development per year, teachers undertake the kinds of reading and writing assignments they will later give their students and work alongside local Writing Project teacher-leaders to develop plans for integrating these new teaching and learning approaches in their classrooms.<\/p><p>McWilliams notes that the experience \u201cdemonstrated how to interact with the students\u201d and gave her confidence that if C3WP \u201cworked for me, it will work for my students.\u201d Further, the professional development seeks to build teachers\u2019 understanding of underlying principles of teaching and learning argument writing. For example, C3WP\u2019s curricular materials illustrate how short instructional sequences that focus on a limited set of skills or practices can build over time and culminate in substantial projects like those undertaken by McWilliams\u2019 and Olsen\u2019s students. C3WP\u2019s professional development approach engages teachers in understanding such principles and supports sustainability by building teachers\u2019 ownership of the practices.<\/p><p>\u00a0<\/p><blockquote><p>\u201cLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi\u201d<\/p><p>\u00a0\u00a0\u00a0\u00a0\u2014Dr. Lorem Ipsum<\/p><\/blockquote>",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

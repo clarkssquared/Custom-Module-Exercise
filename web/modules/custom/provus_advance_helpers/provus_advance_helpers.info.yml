@@ -1,0 +1,7 @@
+name: 'Provus Advance Helpers'
+type: module
+description: 'Misc. modules enables other modules and configs'
+core_version_requirement: ^9 || ^10
+package: Provus
+dependencies:
+  - linkchecker

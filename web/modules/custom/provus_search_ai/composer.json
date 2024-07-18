@@ -1,0 +1,19 @@
+{
+    "name": "promet/provus_search_ai",
+    "description": "Provus Search AI.",
+    "type": "drupal-custom-module",
+    "keywords": ["Drupal", "search", "kendra", "ai"],
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Rachel Jaro (nx2611)",
+            "homepage": "https://www.drupal.org/u/nx2611",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "drupal/core": "^9 || ^10",
+        "php": ">=8.0",
+        "aws/aws-sdk-php": "^3"
+    }
+}

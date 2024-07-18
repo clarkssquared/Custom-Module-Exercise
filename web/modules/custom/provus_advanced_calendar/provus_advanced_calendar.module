@@ -1,0 +1,39 @@
+<?php
+
+/**
+ * @file
+ * Contains provus_advanced_calendar.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function provus_advanced_calendar_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the provus_advanced_calendar module.
+    case 'help.page.provus_advanced_calendar':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Advanced Calendar functionality for Provus Events.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+
+/**
+ * Implements hook_theme().
+ */
+function provus_advanced_calendar_theme() {
+  return [
+    'views_view__provus_advanced_events_calendar__page_calendar' => [
+      'base hook' => 'views view'
+    ],
+    'views_view_unformatted__provus_advanced_events__page_events' => [
+      'base hook' => 'views view unformatted'
+    ],
+  ];
+}

@@ -1,0 +1,17 @@
+provus_search_ai_log:
+  type: entity
+  label: 'Provus Search Log'
+  base_table: provus_search_ai_log
+  data_table: provus_search_ai_log_field_data
+  entity_keys:
+    id:
+      type: integer
+      label: 'ID'
+      constraints:
+        - Serial
+    label:
+      type: label
+    uuid:
+      type: uuid
+      constraints:
+        - UUID

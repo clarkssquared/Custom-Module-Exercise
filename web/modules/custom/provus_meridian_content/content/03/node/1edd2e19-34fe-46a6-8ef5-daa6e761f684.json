@@ -1,0 +1,239 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/new-test-site-3.docksal.site\/events\/santa-clara-valley-demo?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/new-test-site-3.docksal.site\/rest\/type\/node\/provus_event"
+        },
+        "http:\/\/new-test-site-3.docksal.site\/rest\/relation\/node\/provus_event\/revision_uid": [
+            {
+                "href": "http:\/\/new-test-site-3.docksal.site\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/new-test-site-3.docksal.site\/rest\/relation\/node\/provus_event\/uid": [
+            {
+                "href": "http:\/\/new-test-site-3.docksal.site\/user\/0?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/new-test-site-3.docksal.site\/rest\/relation\/node\/provus_event\/field_provus_media_image": [
+            {
+                "href": "http:\/\/new-test-site-3.docksal.site\/media\/15\/edit?_format=hal_json"
+            }
+        ],
+        "http:\/\/new-test-site-3.docksal.site\/rest\/relation\/node\/provus_event\/field_provus_tax_cat_event": [
+            {
+                "href": "http:\/\/new-test-site-3.docksal.site\/taxonomy\/term\/6?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 32
+        }
+    ],
+    "uuid": [
+        {
+            "value": "1edd2e19-34fe-46a6-8ef5-daa6e761f684"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "provus_event"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2024-03-14T16:53:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/new-test-site-3.docksal.site\/rest\/relation\/node\/provus_event\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/new-test-site-3.docksal.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/new-test-site-3.docksal.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4ce202cf-95f8-4cfd-a8fc-7121823b76d4"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/new-test-site-3.docksal.site\/rest\/relation\/node\/provus_event\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/new-test-site-3.docksal.site\/user\/0?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/new-test-site-3.docksal.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ed90fd3e-438d-401c-993c-4f2ea148ac33"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/new-test-site-3.docksal.site\/rest\/relation\/node\/provus_event\/field_provus_media_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/new-test-site-3.docksal.site\/media\/15\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/new-test-site-3.docksal.site\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "74eadf06-a9f7-43e8-b9cd-beb993ded637"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/new-test-site-3.docksal.site\/rest\/relation\/node\/provus_event\/field_provus_tax_cat_event": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/new-test-site-3.docksal.site\/taxonomy\/term\/6?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/new-test-site-3.docksal.site\/rest\/type\/taxonomy_term\/provus_category_event"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f98d033b-e89a-4b4b-a94f-65e834c8b49c"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Santa Clara Valley Demo",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-10-25T15:59:00+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-03-14T16:53:35+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "moderation_state": [
+        {
+            "value": "published",
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "Santa Clara Valley Demo | PROVUS"
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "description",
+                "content": "This demo is a test event on our calendar\u00a0"
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/new-test-site-3.docksal.site\/events\/santa-clara-valley-demo"
+            },
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/events\/santa-clara-valley-demo",
+            "pid": 53,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>This demo is a test event on our calendar<\/p><p>&nbsp;<\/p><img src=\"\/sites\/default\/files\/inline-images\/20yearspromet-04_%281%29.png\" data-align=\"left\" data-entity-uuid=\"8ba5e58f-f382-441c-9ef4-c82c067e4f30\" data-entity-type=\"file\" width=\"461\" alt=\"this is alt text\">",
+            "format": "basic_html",
+            "processed": "<p>This demo is a test event on our calendar<\/p><p>\u00a0<\/p><img src=\"\/sites\/default\/files\/inline-images\/20yearspromet-04_%281%29.png\" data-entity-uuid=\"8ba5e58f-f382-441c-9ef4-c82c067e4f30\" data-entity-type=\"file\" width=\"461\" alt=\"this is alt text\" class=\"align-left\" height=\"2538\" \/>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_provus_smartdate": [
+        {
+            "value": "2024-04-15T14:00:00+00:00",
+            "end_value": "2024-04-15T15:00:00+00:00",
+            "duration": 60,
+            "rrule": null,
+            "rrule_index": null,
+            "timezone": "",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+services:
+  provus_search_ai.aws_kendra:
+    class: Drupal\provus_search_ai\Plugin\Lib\KendraApi
+    arguments: ['@config.factory', '@state', '@logger.factory']
+  provus_search_ai.aws_bedrock:
+    class: Drupal\provus_search_ai\Plugin\Lib\BedrockApi
+    arguments: ['@config.factory', '@state', '@logger.factory']
+  provus_search_ai.aws_s3:
+    class: Drupal\provus_search_ai\Plugin\Lib\AwsS3
+    arguments: ['@config.factory', '@logger.factory']

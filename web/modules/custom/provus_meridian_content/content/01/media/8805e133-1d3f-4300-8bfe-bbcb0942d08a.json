@@ -1,0 +1,165 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/newtheme.docksal.site\/media\/18\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/newtheme.docksal.site\/rest\/type\/media\/image"
+        },
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/media\/image\/uid": [
+            {
+                "href": "http:\/\/newtheme.docksal.site\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/media\/image\/thumbnail": [
+            {
+                "href": "",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/media\/image\/field_media_image": [
+            {
+                "href": "",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 18
+        }
+    ],
+    "uuid": [
+        {
+            "value": "8805e133-1d3f-4300-8bfe-bbcb0942d08a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-10-24T07:46:59+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/media\/image\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/newtheme.docksal.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/newtheme.docksal.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4afaf6ee-b2d0-494e-96c7-fd625c72e3bd"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/media\/image\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/newtheme.docksal.site\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3d788256-9405-48e4-b2fd-a095c574ac2c"
+                    }
+                ],
+                "lang": "en",
+                "alt": "A banner that says the establishment is open",
+                "title": null,
+                "width": "1680",
+                "height": "420"
+            }
+        ],
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/media\/image\/field_media_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/newtheme.docksal.site\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3d788256-9405-48e4-b2fd-a095c574ac2c"
+                    }
+                ],
+                "lang": "en",
+                "alt": "A banner that says the establishment is open",
+                "title": "",
+                "width": "1680",
+                "height": "420"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Hero (1)_1698042080734.png",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-10-24T07:46:36+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-10-24T07:46:36+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ]
+}

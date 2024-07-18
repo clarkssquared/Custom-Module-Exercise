@@ -1,0 +1,183 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/new-meridian-local.docksal\/media\/80\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/new-meridian-local.docksal\/rest\/type\/media\/image"
+        },
+        "http:\/\/new-meridian-local.docksal\/rest\/relation\/media\/image\/uid": [
+            {
+                "href": "http:\/\/new-meridian-local.docksal\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/new-meridian-local.docksal\/rest\/relation\/media\/image\/thumbnail": [
+            {
+                "href": "",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/new-meridian-local.docksal\/rest\/relation\/media\/image\/field_media_image": [
+            {
+                "href": "",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 80
+        }
+    ],
+    "uuid": [
+        {
+            "value": "02b41b5a-10a1-47f0-b106-36ae001ab1b3"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2024-03-18T06:21:55+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/new-meridian-local.docksal\/rest\/relation\/media\/image\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/new-meridian-local.docksal\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/new-meridian-local.docksal\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "70925d76-985f-4535-89ec-c7d57c59e3c6"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/new-meridian-local.docksal\/rest\/relation\/media\/image\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/new-meridian-local.docksal\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7af257bd-7a3e-482d-8d2f-ed1023e1d86b"
+                    }
+                ],
+                "lang": "en",
+                "alt": "Senate Rules",
+                "title": null,
+                "width": "1480",
+                "height": "986"
+            }
+        ],
+        "http:\/\/new-meridian-local.docksal\/rest\/relation\/media\/image\/field_media_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/new-meridian-local.docksal\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7af257bd-7a3e-482d-8d2f-ed1023e1d86b"
+                    }
+                ],
+                "lang": "en",
+                "alt": "Senate Rules",
+                "title": "",
+                "width": "1480",
+                "height": "986"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "senate-rules.jpeg",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-03-18T06:21:52+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-03-18T06:21:52+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "| PROVUS"
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/new-meridian-local.docksal\/homepage"
+            },
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+uuid: b39314de-58f7-4fb3-ba00-25da1671e464
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:provus_basic_text:3b959318-9e00-42d7-af47-6304caa7e480'
+  module:
+    - block_content
+  theme:
+    - provus_meridian
+id: provus_meridian_basictext119292583
+theme: provus_meridian
+region: footer_first
+weight: -9
+provider: null
+plugin: 'block_content:3b959318-9e00-42d7-af47-6304caa7e480'
+settings:
+  id: 'block_content:3b959318-9e00-42d7-af47-6304caa7e480'
+  label: 'Below Logo Text(Basic Text) - 119292583'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

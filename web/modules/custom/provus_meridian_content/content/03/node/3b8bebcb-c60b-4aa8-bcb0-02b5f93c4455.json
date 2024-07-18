@@ -1,0 +1,239 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/new-test-site-3.docksal.site\/events\/test-event-0?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/new-test-site-3.docksal.site\/rest\/type\/node\/provus_event"
+        },
+        "http:\/\/new-test-site-3.docksal.site\/rest\/relation\/node\/provus_event\/revision_uid": [
+            {
+                "href": "http:\/\/new-test-site-3.docksal.site\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/new-test-site-3.docksal.site\/rest\/relation\/node\/provus_event\/uid": [
+            {
+                "href": "http:\/\/new-test-site-3.docksal.site\/user\/0?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/new-test-site-3.docksal.site\/rest\/relation\/node\/provus_event\/field_provus_media_image": [
+            {
+                "href": "http:\/\/new-test-site-3.docksal.site\/media\/2\/edit?_format=hal_json"
+            }
+        ],
+        "http:\/\/new-test-site-3.docksal.site\/rest\/relation\/node\/provus_event\/field_provus_tax_cat_event": [
+            {
+                "href": "http:\/\/new-test-site-3.docksal.site\/taxonomy\/term\/6?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 29
+        }
+    ],
+    "uuid": [
+        {
+            "value": "3b8bebcb-c60b-4aa8-bcb0-02b5f93c4455"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "provus_event"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2024-03-14T16:52:37+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/new-test-site-3.docksal.site\/rest\/relation\/node\/provus_event\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/new-test-site-3.docksal.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/new-test-site-3.docksal.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4ce202cf-95f8-4cfd-a8fc-7121823b76d4"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/new-test-site-3.docksal.site\/rest\/relation\/node\/provus_event\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/new-test-site-3.docksal.site\/user\/0?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/new-test-site-3.docksal.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ed90fd3e-438d-401c-993c-4f2ea148ac33"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/new-test-site-3.docksal.site\/rest\/relation\/node\/provus_event\/field_provus_media_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/new-test-site-3.docksal.site\/media\/2\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/new-test-site-3.docksal.site\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "30cb8205-1336-46a7-8dde-959672381e07"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/new-test-site-3.docksal.site\/rest\/relation\/node\/provus_event\/field_provus_tax_cat_event": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/new-test-site-3.docksal.site\/taxonomy\/term\/6?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/new-test-site-3.docksal.site\/rest\/type\/taxonomy_term\/provus_category_event"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f98d033b-e89a-4b4b-a94f-65e834c8b49c"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Test event ",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-10-25T15:38:35+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-03-14T16:52:37+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "moderation_state": [
+        {
+            "value": "published",
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "Test event | PROVUS"
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "description",
+                "content": "test text here\u00a0\u00a0"
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/new-test-site-3.docksal.site\/events\/test-event-0"
+            },
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/events\/test-event-0",
+            "pid": 49,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>test text here&nbsp;<br><br>&nbsp;<\/p>",
+            "format": "basic_html",
+            "processed": "<p>test text here\u00a0<br \/><br \/>\u00a0<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_provus_smartdate": [
+        {
+            "value": "2024-03-26T16:00:00+00:00",
+            "end_value": "2024-03-26T17:00:00+00:00",
+            "duration": 60,
+            "rrule": null,
+            "rrule_index": null,
+            "timezone": "",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

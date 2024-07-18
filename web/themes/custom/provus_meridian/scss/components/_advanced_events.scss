@@ -1,0 +1,280 @@
+.advanced-events-date {
+  &-left {
+    .mini-date {
+      display: block;
+      background: $white;
+      overflow: hidden;
+      padding-top: rem-calc(36);
+      position: relative;
+      border-radius: rem-calc(2);
+      border: none;
+      max-width: rem-calc(128);
+      text-align: center;
+      height: 140px;
+      margin-bottom: 0;
+      box-shadow: 0px 4px 4px 0px #0000000D;
+      &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 1rem;
+        width: 100%;
+        background: $secondary-shade;
+      }
+      &-top {
+        font-size: rem-calc(20);
+        line-height: rem-calc(28);
+        letter-spacing: rem-calc(-.4);
+        color: $gray-darker;
+      }
+      &-bottom {
+        font-weight: bold;
+        font-size: rem-calc(48);
+        line-height: rem-calc(56);
+        text-align: center;
+        letter-spacing: rem-calc(-1);
+        color: $gray-darker;
+      }
+    }
+  }
+  &-center {
+    .title {
+      h3 {
+        margin-top: 0;
+        margin-bottom: rem-calc(8);
+        font-size: rem-calc(36);
+        line-height: rem-calc(44);
+        a {
+          color: $text-primary;
+          text-decoration: none;
+          &:hover,
+          &:focus {
+            text-decoration: underline;
+            color: $primary-shade;
+          }
+        }
+      }
+    }
+    .fulldate {
+      font-size: rem-calc(18);
+      line-height: rem-calc(28);
+      color: $text-secondary;
+    }
+    .body {
+      line-height: rem-calc(32);
+      margin-top: rem-calc(8);
+    }
+  }
+  &-right {
+    img {
+      width: rem-calc(483);
+      height: rem-calc(296);
+      object-fit: cover;
+    }
+  }
+}
+
+.advanced-events-date-center {
+  padding-right: 2rem;
+}
+
+.advanced-events-date-right {
+  img {
+    border-radius: rem-calc(4);
+  }
+}
+
+.view-provus-advanced-events.view-display-id-page_events,
+.view-provus-advanced-events-calendar.view-display-id-page_calendar {
+  .grouping {
+    margin-bottom: rem-calc(48);
+    .title {
+      position: relative;
+      background: $white;
+      text-align: center;
+      font-size: $h4-font-size;
+      line-height: rem-calc(32);
+      color: $black;
+
+      &:before {
+        width: 100%;
+        height: rem-calc(1);
+        top: 50%;
+        content: '';
+        background: $secondary-accent;
+        z-index: 1;
+        position: absolute;
+        left: 0;
+      }
+
+      span {
+        position: relative;
+        display: inline-block;
+        z-index: 1;
+        background: $white;
+        padding: rem-calc(0 30);
+      }
+    }
+  }
+  .views-exposed-form {
+    margin-bottom: rem-calc(48);
+    .flex-wrap {
+      column-gap: rem-calc(12);
+    }
+    .form-item-combine {
+      width: rem-calc(200);
+    }
+    .form-item-field-provus-smartdate-value,
+    .form-item-field-provus-smartdate-end-value {
+      width: rem-calc(150);
+    }
+    .select2-container--default .select2-selection--single {
+      height: rem-calc(48);
+      padding: rem-calc(9);
+      border-color: #ced4da;
+      &:focus {
+        border-color: #92b1f5;
+        outline: 0;
+        box-shadow: 0 0 0 0.25rem rgba(37, 99, 235, 0.25);
+      }
+      .select2-selection__placeholder {
+        color: $text-secondary;
+      }
+      .select2-selection__rendered {
+        color: $text-primary;
+      }
+      .select2-selection__arrow {
+        height: rem-calc(43);
+        right: rem-calc(9);
+      }
+    }
+    .form-actions {
+      input:first-of-type {
+        background: $primary;
+        color: $white;
+        border-color: $primary;
+        &:hover,
+        &:focus {
+          background: $primary-hover;
+          color: $white;
+          border-color: $primary-hover;
+        }
+      }
+      input {
+        border-color: #ced4da;
+        padding-top: rem-calc(15);
+        padding-bottom: rem-calc(15);
+        border-radius: rem-calc(4);
+        margin-right: rem-calc(12);
+      }
+    }
+  }
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+  background-color: $secondary-shade;
+  .wrap:before {
+    color: white;
+  }
+}
+
+.view-link-area-toggle .list-group {
+  margin-bottom: rem-calc(32);
+  .list-group-item {
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: rem-calc(36);
+    a {
+      padding-left: 0;
+      padding-right: 0;
+      font-size: rem-calc(16);
+      line-height: rem-calc(24);
+      color: $text-secondary;
+      &.active {
+        color: $secondary-shade;
+        border-bottom: 3px solid $secondary-shade;
+      }
+    }
+    &:hover {
+      background: none;
+    }
+  }
+}
+
+.block-fullcalendar-block {
+  .fullcalendar-block {
+    margin-bottom: rem-calc(80);
+    .fc-button-primary {
+      background-color: $primary-accent;
+      &:hover {
+        background-color: $primary-hover;
+      }
+    }
+  }
+}
+
+.view-provus-advanced-events.view-display-id-page_events {
+  margin-bottom: rem-calc(80);
+}
+
+.block.block-fullcalendar-block {
+  border-top: 8px solid $primary-accent;
+  padding-top: 2rem;
+}
+
+.fullcalendar-block {
+  
+  a {
+    text-decoration: none;
+    font-weight: normal;
+  }
+
+  .fc td, .fc th {
+    color: $text-primary;
+    a {
+      color: $text-primary;
+    }
+  }
+
+  .fc .fc-toolbar-title {
+    font-size: $h4-font-size;
+    color: $primary-accent;
+  }
+
+  .fc-h-event .fc-event-title-container {
+    background-color: $primary !important;
+  }
+  
+  .fc .fc-daygrid-day-number {
+    color: $primary-accent !important;
+  }
+
+  .fc-day-past .fc-daygrid-day-number,
+  .fc-day-other .fc-daygrid-day-number {
+    color: $background-grey !important;
+  }
+
+  .fc .fc-daygrid-day.fc-day-today {
+    background-color: #FCF8E3;
+  }
+
+  .fc .fc-daygrid-day.fc-day-sun,
+  .fc .fc-daygrid-day.fc-day-sat {
+    background-color: #F8F9FB;
+  }
+}
+
+/* For mobile devices. */
+@media only screen and (max-width: 765px) {
+  .advanced-events-date-right img {
+    width: 100%;
+  }
+}
+
+/* For iPad devices */
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+  .advanced-events-date-right img {
+    width: 100%;
+  }
+}

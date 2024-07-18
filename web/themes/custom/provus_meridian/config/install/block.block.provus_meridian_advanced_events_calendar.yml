@@ -1,0 +1,34 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - fullcalendar_block
+    - system
+  theme:
+    - provus_meridian
+id: provus_meridian_advanced_events_calendar
+theme: provus_meridian
+region: content
+weight: 1000
+provider: null
+plugin: fullcalendar_block
+settings:
+  id: fullcalendar_block
+  label: 'FullCalendar block'
+  label_display: '0'
+  provider: fullcalendar_block
+  event_source: /event-feeds
+  initial_view: dayGridMonth
+  header_start: prev
+  header_center: title
+  header_end: next
+  open_dialog: 2
+  dialog_width: 800
+  plugins: {  }
+  advanced: ''
+  advanced_drupal: ''
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /events/calendar

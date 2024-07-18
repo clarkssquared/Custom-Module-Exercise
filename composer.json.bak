@@ -1,0 +1,203 @@
+{
+    "name": "promet/provus-drupal",
+    "description": "Install Provus Drupal kickstarter by Promet Source.",
+    "type": "project",
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/promet/provus_advanced_calendar"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/promet/provus_search_ai"
+        },
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "fontawesome/fontawesome",
+                "version": "6.1.0",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://use.fontawesome.com/releases/v6.1.0/fontawesome-free-6.1.0-web.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "fonticonpicker/fonticonpicker--fonticonpicker",
+                "version": "3.1.1",
+                "type": "drupal-library-fonticonpicker",
+                "dist": {
+                    "url": "https://github.com/fontIconPicker/fontIconPicker/releases/download/v3.1.1/fontIconPicker.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type":"package",
+            "package": {
+                "name": "kenwheeler/slick",
+                "version": "1.6.0",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/kenwheeler/slick/archive/refs/tags/1.6.0.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "drupaloverride/better_normalizers",
+                "version": "dev-master",
+                "type": "drupal-module",
+                "dist": {
+                    "url": "https://git.drupalcode.org/api/v4/projects/project%2Fbetter_normalizers/repository/archive.zip?sha=312e16",
+                    "type": "zip"
+                }
+            }
+        }
+    ],
+    "require": {
+        "composer/installers": "1.12",
+        "cweagans/composer-patches": "1.7.3",
+        "drupal/addtoany": "2.0.4",
+        "drupal/admin_toolbar": "3.4.1",
+        "drupal/ala": "2.5",
+        "drupal/auto_entitylabel": "3.0",
+        "drupal/better_exposed_filters": "^6.0",
+        "drupal/blazy": "2.18",
+        "drupal/bootstrap_barrio": "5.5.12",
+        "drupal/bootstrap_layout_builder": "2.1.2",
+        "drupal/bootstrap_sass": "5.0.6",
+        "drupal/bootstrap_site_alert": "2.0.0-beta11",
+        "drupal/core": "10.1.2",
+        "drupal/core-composer-scaffold": "10.1.2",
+        "drupal/default_content": "2.0.0-alpha2",
+        "drupal/default_content_deploy": "2.0.0",
+        "drupal/devel": "5.0.2",
+        "drupal/entity": "1.4",
+        "drupal/exclude_node_title": "1.4",
+        "drupal/focal_point": "2.0.2",
+        "drupal/fontawesome": "2.26",
+        "drupal/fullcalendar_block": "1.0.4",
+        "drupal/gin": "3.0.0-rc5",
+        "drupal/gin_lb": "^1.0@RC",
+        "drupal/gin_login": "2.0.2",
+        "drupal/gin_toolbar": "1.0.0-rc3",
+        "drupal/google_tag": "2.0.x-dev@dev",
+        "drupal/google_translator": "^2.1",
+        "drupal/inline_entity_form": "1.0.0-rc15",
+        "drupal/layout_builder_browser": "1.5",
+        "drupal/layout_builder_modal": "1.2",
+        "drupal/layout_builder_restrictions": "2.19",
+        "drupal/linkit": "6.1.0",
+        "drupal/menu_block": "dev-1.x",
+        "drupal/metatag": "^2.0",
+        "drupal/metatag_ai": "^1.0",
+        "drupal/pathauto": "1.11",
+        "drupal/search_api": "^1.30",
+        "drupal/section_library": "1.1.1",
+        "drupal/simple_sitemap": "^4.1",
+        "drupal/sitemap": "dev-2.x",
+        "drupal/slick": "2.10",
+        "drupal/smart_date": "4.0.3",
+        "drupal/smart_trim": "2.1.0",
+        "drupal/toastify": "1.0.0-beta6",
+        "drupal/twig_tweak": "3.2.1",
+        "drupal/views_bootstrap": "4.4",
+        "drupal/webform": "^6.2",
+        "drupaloverride/better_normalizers": "dev-master",
+        "drush/drush": "12.1.0",
+        "fontawesome/fontawesome": "6.1.0",
+        "fonticonpicker/fonticonpicker--fonticonpicker": "3.1.1",
+        "kenwheeler/slick": "1.6.0",
+        "kporras07/composer-symlinks": "v1.2",
+        "oomphinc/composer-installers-extender": "2.0.1",
+        "psr/log": "3.0.0",
+        "rlanvin/php-rrule": "2.4",
+        "vlucas/phpdotenv": "5.5",
+        "webflo/drupal-finder": "1.2.2",
+        "webmozart/path-util": "2.3",
+        "zaporylie/composer-drupal-optimizations": "1.2"
+    },
+    "require-dev": {
+        "dmore/behat-chrome-extension": "1.4",
+        "mglaman/drupal-check": "1.4",
+        "drupal/core-dev": "10.0.9"
+    },
+    "conflict": {
+        "drupal/drupal": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "drupal-scaffold": {
+            "locations": {
+                "web-root": "./web"
+            },
+            "file-mapping": {
+                "[project-root]/.editorconfig": false,
+                "[project-root]/.gitattributes": false
+            }
+        },
+        "installer-paths": {
+            "web/core": ["type:drupal-core"],
+            "web/libraries/{$name}": ["type:drupal-library"],
+            "web/libraries/{$name}/dist": ["type:drupal-library-fonticonpicker"],
+            "web/modules/contrib/{$name}": ["type:drupal-module"],
+            "web/profiles/contrib/{$name}": ["type:drupal-profile"],
+            "web/themes/contrib/{$name}": ["type:drupal-theme"],
+            "drush/Commands/contrib/{$name}": ["type:drupal-drush"],
+            "web/modules/custom/{$name}": ["type:drupal-custom-module"],
+            "web/profiles/custom/{$name}": ["type:drupal-custom-profile"],
+            "web/themes/custom/{$name}": ["type:drupal-custom-theme"],
+            "web/private/scripts/quicksilver/{$name}/": ["type:quicksilver-script"]
+        },
+        "composer-exit-on-patch-failure": true,
+        "patchLevel": {
+            "drupal/core": "-p2"
+        },
+        "patches": {
+            "drupal/core": {
+                "2942975: Expose Layout Builder data to REST and JSON:API": "https://www.drupal.org/files/issues/2023-02-08/2942975-230.patch"
+            },
+            "drupal/auto_entitylabel": {
+                "3065687: Integration with Layout Builder for custom block types": "https://www.drupal.org/files/issues/2022-12-22/auto_entitylabel-layout_builder_component_title-3065687-17.patch"
+            },
+            "drupal/bootstrap_site_alert": {
+                "3281928: HTML markup shown as encoded characters": "https://git.drupalcode.org/project/bootstrap_site_alert/-/merge_requests/5.diff"
+            },
+            "drupal/default_content_deploy": {
+                "3376835: Fix layout builder references to inline blocks": "https://www.drupal.org/files/issues/2023-07-25/default_content_deploy-layout-builder-inline-blocks-reference-3376835-2.patch"
+            },
+            "drupal/inline_entity_form": {
+                "3033241: Cannot update the order weight using complex form widget": "https://www.drupal.org/files/issues/2021-02-15/cannot-update-weight-order-complex-widget-3033241-4.patch"
+            },
+            "drupal/smart_date": {
+                "3381131: Deprecated $dateFormatter property": "https://git.drupalcode.org/project/smart_date/-/merge_requests/63.patch"
+            }
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "composer/installers": true,
+            "cweagans/composer-patches": true,
+            "oomphinc/composer-installers-extender": true,
+            "zaporylie/composer-drupal-optimizations": true,
+            "drupal/core-composer-scaffold": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "php-http/discovery": true,
+            "phpstan/extension-installer": true
+        }
+    }
+}

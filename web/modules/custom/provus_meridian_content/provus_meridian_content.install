@@ -1,0 +1,111 @@
+<?php
+
+/**
+ * Implements hook_install().
+ */
+function provus_meridian_content_install() {
+  $importer = \Drupal::service('default_content_deploy.importer');
+  $importer->setForceOverride(TRUE);
+
+  $importer->setFolder('modules/custom/provus_meridian_content/content/user');
+  $importer->prepareForImport();
+  $importer->import();
+
+  $importer->setFolder('modules/custom/provus_meridian_content/content/01');
+  $importer->prepareForImport();
+
+  $importer->setFolder('modules/custom/provus_meridian_content/content/02');
+  $importer->prepareForImport();
+
+  $importer->setFolder('modules/custom/provus_meridian_content/content/03');
+  $importer->prepareForImport();
+
+  $importer->setFolder('modules/custom/provus_meridian_content/content/04');
+  $importer->prepareForImport();
+
+  $importer->import();
+
+  // Set homepage.
+  $path = \Drupal::service('path_alias.manager')->getPathByAlias('/homepage');
+  Drupal::configFactory()
+    ->getEditable('system.site')
+    ->set('page.front', $path)
+    ->save(TRUE);
+
+  // Get nid of homepage and exclude node title.
+  list($nothing, $nothing, $nid) = explode('/', $path);
+  $excludeNodeTitle = [$nid];
+
+  $content = [
+    '/public-safety' => [
+      'alias' => '/residence/public-safety',
+      'exclude_node_title' => true
+    ],
+    '/waste-recycling' => [
+      'alias' => '/government/waste-recycling',
+      'exclude_node_title' => true
+    ],
+    '/departments' => [
+      'alias' => '/government/departments',
+      'exclude_node_title' => true
+    ],
+    '/city-council' => [
+      'alias' => '/government/city-council',
+      'exclude_node_title' => true
+    ],
+    '/agenda-minutes' => [
+      'alias' => '/government/agenda-minutes',
+      'exclude_node_title' => true
+    ],
+    '/starting-business-meridian' => [
+      'alias' => '/services/starting-business-meridian',
+      'exclude_node_title' => true
+    ],
+    '/register-page' => [
+      'alias' => '/services/register-page',
+      'exclude_node_title' => true
+    ],
+    '/applying-building-permit' => [
+      'alias' => '/services/applying-building-permit',
+      'exclude_node_title' => true
+    ],
+    '/payments-portal' => [
+      'alias' => '/services/payments-portal',
+      'exclude_node_title' => true
+    ],
+    '/report-concern-request-information' => [
+      'alias' => '/services/report-concern-request-information',
+      'exclude_node_title' => true
+    ],
+    '/faq/faq-group' => [
+      'alias' => '/faq/how-do-i',
+      'exclude_node_title' => true
+    ],
+    '/meridian-county-animal-center' => [
+      'alias' => '/services/meridian-county-animal-center',
+      'exclude_node_title' => true
+    ],
+  ];
+
+  foreach($content as $pattern => $item) {
+    $path = \Drupal::service('path_alias.manager')->getPathByAlias($pattern);
+    
+    if (preg_match('/node\/(\d+)/', $path, $matches)) {
+      $entity = \Drupal\node\Entity\Node::load($matches[1]);
+      $entity->path = [
+        'alias' => $item['alias'],
+        'pathauto' => 0,
+      ];
+      $entity->save();
+
+      if ($item['exclude_node_title']) {
+        $excludeNodeTitle[] = $matches[1];
+      }
+    }
+  }
+
+  Drupal::configFactory()
+    ->getEditable('exclude_node_title.settings')
+    ->set('nid_list', $excludeNodeTitle)
+    ->save(TRUE);
+}

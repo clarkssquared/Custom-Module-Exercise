@@ -1,0 +1,255 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/new-meridian2.docksal\/people\/sienna-hewitt?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/new-meridian2.docksal\/rest\/type\/node\/provus_person"
+        },
+        "http:\/\/new-meridian2.docksal\/rest\/relation\/node\/provus_person\/revision_uid": [
+            {
+                "href": "http:\/\/new-meridian2.docksal\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/new-meridian2.docksal\/rest\/relation\/node\/provus_person\/uid": [
+            {
+                "href": "http:\/\/new-meridian2.docksal\/user\/0?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/new-meridian2.docksal\/rest\/relation\/node\/provus_person\/field_provus_media_image": [
+            {
+                "href": "http:\/\/new-meridian2.docksal\/media\/33\/edit?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/new-meridian2.docksal\/rest\/relation\/node\/provus_person\/field_provus_tax_cat_person": [
+            {
+                "href": "http:\/\/new-meridian2.docksal\/taxonomy\/term\/4?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 17
+        }
+    ],
+    "uuid": [
+        {
+            "value": "baa83126-118f-4c0f-9919-5c4f15ade322"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "provus_person"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2024-03-14T06:36:56+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/new-meridian2.docksal\/rest\/relation\/node\/provus_person\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/new-meridian2.docksal\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/new-meridian2.docksal\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "620fc3a0-6360-43a0-914f-2e4605974590"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/new-meridian2.docksal\/rest\/relation\/node\/provus_person\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/new-meridian2.docksal\/user\/0?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/new-meridian2.docksal\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8a68de06-80db-4cae-94d3-fd15e01616dc"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/new-meridian2.docksal\/rest\/relation\/node\/provus_person\/field_provus_media_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/new-meridian2.docksal\/media\/33\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/new-meridian2.docksal\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3f35adb6-fc9a-4bae-a2f3-e8ce71917d67"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/new-meridian2.docksal\/rest\/relation\/node\/provus_person\/field_provus_tax_cat_person": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/new-meridian2.docksal\/taxonomy\/term\/4?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/new-meridian2.docksal\/rest\/type\/taxonomy_term\/provus_category_person"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a8791eb5-746d-4524-bdd8-bb31cff83317"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Sienna Hewitt",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-10-25T04:20:50+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-03-14T06:36:56+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "moderation_state": [
+        {
+            "value": "published",
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "Sienna Hewitt | PROVUS"
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "description",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis laoreet nunc a pretium. Aliquam ac posuere tellus. Cras at commodo ligula, et accumsan nunc. Nullam aliquet, velit ac efficitur elementum, magna libero ornare arcu, non pharetra ex dui eget purus. Nunc eleifend et elit quis rhoncus. Duis at elit et sem imperdiet elementum. Ut lacus nunc, gravida ac tincidunt id, imperdiet a leo. Nullam sit amet odio nunc. Nullam sed elementum mi. Morbi dapibus diam metus, et mattis urna tincidunt non. Cras gravida lacus nunc, non convallis neque bibendum in."
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/new-meridian2.docksal\/people\/sienna-hewitt"
+            },
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/people\/sienna-hewitt",
+            "pid": 37,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis laoreet nunc a pretium. Aliquam ac posuere tellus. Cras at commodo ligula, et accumsan nunc. Nullam aliquet, velit ac efficitur elementum, magna libero ornare arcu, non pharetra ex dui eget purus. Nunc eleifend et elit quis rhoncus. Duis at elit et sem imperdiet elementum. Ut lacus nunc, gravida ac tincidunt id, imperdiet a leo. Nullam sit amet odio nunc. Nullam sed elementum mi. Morbi dapibus diam metus, et mattis urna tincidunt non. Cras gravida lacus nunc, non convallis neque bibendum in.<\/span><\/p>",
+            "format": "basic_html",
+            "processed": "<p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis laoreet nunc a pretium. Aliquam ac posuere tellus. Cras at commodo ligula, et accumsan nunc. Nullam aliquet, velit ac efficitur elementum, magna libero ornare arcu, non pharetra ex dui eget purus. Nunc eleifend et elit quis rhoncus. Duis at elit et sem imperdiet elementum. Ut lacus nunc, gravida ac tincidunt id, imperdiet a leo. Nullam sit amet odio nunc. Nullam sed elementum mi. Morbi dapibus diam metus, et mattis urna tincidunt non. Cras gravida lacus nunc, non convallis neque bibendum in.<\/span><\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_provus_email": [
+        {
+            "value": "siennahewitt@email.com"
+        }
+    ],
+    "field_provus_fname": [
+        {
+            "value": "Sienna"
+        }
+    ],
+    "field_provus_lname": [
+        {
+            "value": "Hewitt"
+        }
+    ],
+    "field_provus_telephone": [
+        {
+            "value": "+1-234-679-8993"
+        }
+    ],
+    "field_provus_titles": [
+        {
+            "value": "Title\/Role"
+        }
+    ]
+}

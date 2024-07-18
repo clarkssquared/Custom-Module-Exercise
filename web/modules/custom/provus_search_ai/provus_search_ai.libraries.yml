@@ -1,0 +1,33 @@
+vue:
+  version: 3.3.9
+  js:
+    https://cdnjs.cloudflare.com/ajax/libs/vue/3.3.9/vue.global.prod.min.js: { type: external, minified: true }
+
+vue-router:
+  version: 3.1.3
+  js:
+    https://cdnjs.cloudflare.com/ajax/libs/vue-router/3.1.3/vue-router.min.js: { type: external, minified: true }
+  dependencies:
+    - provus_search_ai/vue
+
+vuex:
+  version: 3.1.2
+  js:
+    https://cdnjs.cloudflare.com/ajax/libs/vuex/3.1.2/vuex.min.js: { type: external, minified: true }
+  dependencies:
+    - provus_search_ai/vue
+
+axios:
+  version: 0.19.2
+  js:
+    https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js: { type: external, minified: true }
+
+js-app:
+  version: 1.4
+  js:
+    js/app/dist/chat_app.umd.min.js: { minified: true }
+  css:
+    theme:
+      css/chat.css: { minified: true }
+  dependencies:
+    - provus_search_ai/vue

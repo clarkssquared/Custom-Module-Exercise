@@ -1,0 +1,100 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/275?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_basic_text"
+        }
+    },
+    "id": [
+        {
+            "value": 275
+        }
+    ],
+    "uuid": [
+        {
+            "value": "50f25e86-c0e6-4092-87d8-60a444812448"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "provus_basic_text"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2024-01-15T07:54:34+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "(Basic Text) - 1434624829",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-01-15T07:54:34+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "| PROVUS"
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/meridian28.docksal.site\/homepage"
+            },
+            "lang": "en"
+        }
+    ],
+    "field_provus_body": [
+        {
+            "value": "<p><strong>November 23, 2023<\/strong><\/p><p><strong>DENVER, September 19, 2023<\/strong> \u2014 Meridianl, the world\u2019s expert on work, today announced the appointment of Jeff Woolard as Chief Financial Officer. Effective immediately, Jeff will drive the overall financial execution, strategic planning, and create a financial growth strategy for the company.<\/p><p>\u201cJeff\u2019s financial, strategic, and operational experience will make an immeasurable impact that will help Velocity Global take new heights. His proven track record will be critical in helping us achieve strategic initiatives aimed at providing our customers with the best possible experience,\u201d said Frank Calderoni, CEO at Velocity Global. \u201cJeff\u2019s experience as a CFO provides a unique perspective in that he understands better than anyone the challenges associated with scaling a global team. His insights will allow us to build a more scalable and strategic offering that enhances the customer journey and grows our footprint across the industry.\u201d<\/p><p>With nearly 3 decades of experience in both finance and technology, Jeff will provide in-depth experience in driving strategy to execution, growth, and profitability. He most recently served as Chief Financial Officer at Solidigm, providing him with not only the experience needed to grow a company at scale, but also a lens into the challenges faced by global CFOs as they grow their teams in efficient and compliant ways.<\/p><p>Jeff also spent more than 25 years in various leadership positions with Intel, including its manufacturing and technology organization, Foundry and Intel Capital, and has led and overseen large M&amp;A transactions, including Intel's acquisition of Mobileye.<\/p><p>\u201cI am excited to be joining Velocity Global at a critical time in its trajectory,\u201d says Jeff Woolard, Chief Financial Officer of Velocity Global. \u201cAs a CFO, I can attest to the criticality of the type of service the company provides and what a difference it can make in scaling a company in a compliant way. I\u2019m looking forward to working with the team at Velocity Global as we grow the business and help leaders build their teams in ways they never thought possible.\u201d<\/p><p>Jeff\u2019s announcement comes shortly after the appointments of Chief Transformation Officer Susan McDonough and Chief Customer Success Officer Frank Lucier, who both joined the company last month. Chief Revenue Officer Ann-Christel Graham and Chief People Officer Linda Lee were both brought on earlier this year by CEO Frank Calderoni, who took on the role in April.&nbsp;<\/p>",
+            "format": "full_html",
+            "processed": "<p><strong>November 23, 2023<\/strong><\/p><p><strong>DENVER, September 19, 2023<\/strong> \u2014 Meridianl, the world\u2019s expert on work, today announced the appointment of Jeff Woolard as Chief Financial Officer. Effective immediately, Jeff will drive the overall financial execution, strategic planning, and create a financial growth strategy for the company.<\/p><p>\u201cJeff\u2019s financial, strategic, and operational experience will make an immeasurable impact that will help Velocity Global take new heights. His proven track record will be critical in helping us achieve strategic initiatives aimed at providing our customers with the best possible experience,\u201d said Frank Calderoni, CEO at Velocity Global. \u201cJeff\u2019s experience as a CFO provides a unique perspective in that he understands better than anyone the challenges associated with scaling a global team. His insights will allow us to build a more scalable and strategic offering that enhances the customer journey and grows our footprint across the industry.\u201d<\/p><p>With nearly 3 decades of experience in both finance and technology, Jeff will provide in-depth experience in driving strategy to execution, growth, and profitability. He most recently served as Chief Financial Officer at Solidigm, providing him with not only the experience needed to grow a company at scale, but also a lens into the challenges faced by global CFOs as they grow their teams in efficient and compliant ways.<\/p><p>Jeff also spent more than 25 years in various leadership positions with Intel, including its manufacturing and technology organization, Foundry and Intel Capital, and has led and overseen large M&amp;A transactions, including Intel's acquisition of Mobileye.<\/p><p>\u201cI am excited to be joining Velocity Global at a critical time in its trajectory,\u201d says Jeff Woolard, Chief Financial Officer of Velocity Global. \u201cAs a CFO, I can attest to the criticality of the type of service the company provides and what a difference it can make in scaling a company in a compliant way. I\u2019m looking forward to working with the team at Velocity Global as we grow the business and help leaders build their teams in ways they never thought possible.\u201d<\/p><p>Jeff\u2019s announcement comes shortly after the appointments of Chief Transformation Officer Susan McDonough and Chief Customer Success Officer Frank Lucier, who both joined the company last month. Chief Revenue Officer Ann-Christel Graham and Chief People Officer Linda Lee were both brought on earlier this year by CEO Frank Calderoni, who took on the role in April.\u00a0<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

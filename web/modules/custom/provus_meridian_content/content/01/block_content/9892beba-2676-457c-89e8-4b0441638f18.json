@@ -1,0 +1,138 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/90?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_card"
+        },
+        "http:\/\/meridian28.docksal.site\/rest\/relation\/block_content\/provus_card\/field_provus_media_image": [
+            {
+                "href": "http:\/\/meridian28.docksal.site\/media\/29\/edit?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 90
+        }
+    ],
+    "uuid": [
+        {
+            "value": "9892beba-2676-457c-89e8-4b0441638f18"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "provus_card"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-10-24T06:25:13+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "Fire Burning Permits (Card) - 358960347",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-03-25T08:43:23+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "| PROVUS"
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/meridian28.docksal.site\/homepage"
+            },
+            "lang": "en"
+        }
+    ],
+    "field_provus_item_display": [
+        {
+            "value": "provus_card"
+        }
+    ],
+    "field_provus_links": [
+        {
+            "uri": "internal:#",
+            "title": "",
+            "options": {
+                "attributes": {
+                    "target": ""
+                },
+                "icon": "",
+                "class": ""
+            }
+        }
+    ],
+    "_embedded": {
+        "http:\/\/meridian28.docksal.site\/rest\/relation\/block_content\/provus_card\/field_provus_media_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/meridian28.docksal.site\/media\/29\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/meridian28.docksal.site\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e7c5512b-4db1-4698-a82a-ee53fa9a39a0"
+                    }
+                ]
+            }
+        ]
+    },
+    "field_provus_title": [
+        {
+            "value": "Fire Burning Permits"
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/147?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_basic_text"
+        }
+    },
+    "id": [
+        {
+            "value": 147
+        }
+    ],
+    "uuid": [
+        {
+            "value": "144285d8-05c7-4448-91f6-007991fb2119"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "provus_basic_text"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-10-24T06:00:23+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "(Basic Text) - 1272977224",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-11-13T22:05:14+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "| PROVUS"
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/meridian28.docksal.site\/homepage"
+            },
+            "lang": "en"
+        }
+    ],
+    "field_provus_body": [
+        {
+            "value": "<p><span>1 - KNOW THE LICENSE REQUIREMENTS:&nbsp;<\/span><br><span>Before applying for a contractor license in Meridian County. It is recommending that those applying research and understand the license requirements for the specific type of contracting work. \u2028<\/span><br><br><span>2 - MEET THE EXPERIENCE AND EDUCATION REQUIREMENTS:&nbsp;<\/span><br><span>Meridian County requires contractors to meet a minimum level of experience and education, depending on the specific type of license.<\/span><br><span>\u2028<\/span><br><span>3 - OBTAIN A SURETY BOND AND INSURANCE:&nbsp;<\/span><br><span>Contractors in Meridian County are required to obtain a surety bond and liability insurance. \u2028<\/span><br><br><span>4 - SUBMIT THE APPLICATION:<\/span><br><span>After meeting the license, experience, and insurance requirements, applicants can submit their contractor license application to Meridian County. The application must include all required supporting documentation, such as proof of experience, education, and a detailed business plan.<\/span><\/p><p><span>Once the application is reviewed and approved, the contractor will receive their license and can begin performing work in the county.<\/span><\/p>",
+            "format": "basic_html",
+            "processed": "<p><span>1 - KNOW THE LICENSE REQUIREMENTS:\u00a0<\/span><br \/><span>Before applying for a contractor license in Meridian County. It is recommending that those applying research and understand the license requirements for the specific type of contracting work. \u2028<\/span><br \/><br \/><span>2 - MEET THE EXPERIENCE AND EDUCATION REQUIREMENTS:\u00a0<\/span><br \/><span>Meridian County requires contractors to meet a minimum level of experience and education, depending on the specific type of license.<\/span><br \/><span>\u2028<\/span><br \/><span>3 - OBTAIN A SURETY BOND AND INSURANCE:\u00a0<\/span><br \/><span>Contractors in Meridian County are required to obtain a surety bond and liability insurance. \u2028<\/span><br \/><br \/><span>4 - SUBMIT THE APPLICATION:<\/span><br \/><span>After meeting the license, experience, and insurance requirements, applicants can submit their contractor license application to Meridian County. The application must include all required supporting documentation, such as proof of experience, education, and a detailed business plan.<\/span><\/p><p><span>Once the application is reviewed and approved, the contractor will receive their license and can begin performing work in the county.<\/span><\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

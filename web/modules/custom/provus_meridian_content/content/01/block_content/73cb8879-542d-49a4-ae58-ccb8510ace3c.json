@@ -1,0 +1,232 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/226?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_faq_group"
+        },
+        "http:\/\/meridian28.docksal.site\/rest\/relation\/block_content\/provus_faq_group\/field_provus_items": [
+            {
+                "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/222?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/160?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/223?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/224?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/97?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/225?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 226
+        }
+    ],
+    "uuid": [
+        {
+            "value": "73cb8879-542d-49a4-ae58-ccb8510ace3c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "provus_faq_group"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-10-24T04:44:15+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "Frequently Asked Questions (FAQ Group) - 1640731257",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-03-25T08:43:23+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "| PROVUS"
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/meridian28.docksal.site\/homepage"
+            },
+            "lang": "en"
+        }
+    ],
+    "field_provus_body": [
+        {
+            "value": "<p><span>Welcome to our FAQs section, designed to provide you with quick and comprehensive answers to common queries about life in Meridian County. Whether you're curious about local services, events, or regulations, we've got you covered. Explore this resource to find the information you need, and feel free to reach out if you can't find what you're looking for.<\/span><\/p>",
+            "format": "basic_html",
+            "processed": "<p><span>Welcome to our FAQs section, designed to provide you with quick and comprehensive answers to common queries about life in Meridian County. Whether you're curious about local services, events, or regulations, we've got you covered. Explore this resource to find the information you need, and feel free to reach out if you can't find what you're looking for.<\/span><\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/meridian28.docksal.site\/rest\/relation\/block_content\/provus_faq_group\/field_provus_items": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/222?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_faq_item"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ce47f7f8-1412-45a6-b996-d82756b1e2bc"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/160?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_faq_item"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2e1602f6-8b2e-4e9c-9763-cfeb8da6260f"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/223?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_faq_item"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9c9c91c7-2262-45a6-8347-e3af4d90669e"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/224?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_faq_item"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "de91b511-9ccf-44f6-9f0c-f50d0ec7919e"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/97?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_faq_item"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7b7e814e-378b-4a57-a526-9382168d4815"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/225?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_faq_item"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "be6491d5-ba2e-4757-a93c-ac0e73bbed21"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "field_provus_title": [
+        {
+            "value": "Frequently Asked Questions",
+            "lang": "en"
+        }
+    ]
+}

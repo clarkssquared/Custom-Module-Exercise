@@ -1,0 +1,100 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/83?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_basic_text"
+        }
+    },
+    "id": [
+        {
+            "value": 83
+        }
+    ],
+    "uuid": [
+        {
+            "value": "04cef931-ca3a-4ab6-beec-69fac321e556"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "provus_basic_text"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-10-25T05:22:12+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "(Basic Text) - 1758691980",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-10-25T05:22:12+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "| PROVUS"
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/meridian28.docksal.site\/homepage"
+            },
+            "lang": "en"
+        }
+    ],
+    "field_provus_body": [
+        {
+            "value": "<p>Monday &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Closed<br>Tuesday &nbsp; &nbsp; &nbsp; &nbsp; 12\u20136 PM<br>Wednesday &nbsp; &nbsp;12\u20136 PM<br>Thursday &nbsp; &nbsp; &nbsp; &nbsp;12\u20136 PM<br>Friday &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 12\u20136 PM<br>Saturday &nbsp; &nbsp; &nbsp; &nbsp; 12\u20136 PM<br>Sunday &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Closed<\/p><p><strong>CLOSED All Federal and State Holidays<\/strong><\/p>",
+            "format": "full_html",
+            "processed": "<p>Monday \u00a0 \u00a0 \u00a0 \u00a0 \u00a0Closed<br \/>Tuesday \u00a0 \u00a0 \u00a0 \u00a0 12\u20136 PM<br \/>Wednesday \u00a0 \u00a012\u20136 PM<br \/>Thursday \u00a0 \u00a0 \u00a0 \u00a012\u20136 PM<br \/>Friday \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 12\u20136 PM<br \/>Saturday \u00a0 \u00a0 \u00a0 \u00a0 12\u20136 PM<br \/>Sunday \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0Closed<\/p><p><strong>CLOSED All Federal and State Holidays<\/strong><\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function careerjet_search_theme($existing, $type, $theme, $path) {
+  return [
+    'careerjet_search_results' => [
+      'variables' => ['results' => []],
+    ],
+  ];
+}

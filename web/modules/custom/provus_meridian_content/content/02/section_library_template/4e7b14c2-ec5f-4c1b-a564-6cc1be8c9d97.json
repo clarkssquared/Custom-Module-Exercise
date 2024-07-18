@@ -1,0 +1,201 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/newtheme.docksal.site\/admin\/content\/section-library\/1?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/newtheme.docksal.site\/rest\/type\/section_library_template\/section_library_template"
+        },
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/section_library_template\/section_library_template\/user_id": [
+            {
+                "href": "http:\/\/newtheme.docksal.site\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/section_library_template\/section_library_template\/entity_id": [
+            {
+                "href": "http:\/\/newtheme.docksal.site\/waste-recycling?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "43bad36d-473a-41fe-a70f-3928814f5f00"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/section_library_template\/section_library_template\/user_id": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/newtheme.docksal.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/newtheme.docksal.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "43bad36d-473a-41fe-a70f-3928814f5f00"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/section_library_template\/section_library_template\/entity_id": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/newtheme.docksal.site\/waste-recycling?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/newtheme.docksal.site\/rest\/type\/node\/provus_landing_page"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0b7daf30-1cfb-41ca-96ca-07cb8b51d11b"
+                    }
+                ]
+            }
+        ]
+    },
+    "label": [
+        {
+            "value": "How do I adopt FAQ's"
+        }
+    ],
+    "type": [
+        {
+            "value": "section"
+        }
+    ],
+    "entity_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "layout_section": [
+        {
+            "section": {
+                "layout_id": "bootstrap_layout_builder:blb_col_1",
+                "layout_settings": {
+                    "label": "",
+                    "container_wrapper_classes": "",
+                    "container_wrapper_attributes": null,
+                    "container_wrapper": {
+                        "bootstrap_styles": {
+                            "background": {
+                                "background_type": null
+                            },
+                            "background_color": {
+                                "class": null
+                            },
+                            "background_media": {
+                                "image": {
+                                    "media_id": null
+                                },
+                                "video": {
+                                    "media_id": null
+                                },
+                                "background_options": {
+                                    "background_position": "center",
+                                    "background_repeat": "no-repeat",
+                                    "background_attachment": "not_fixed",
+                                    "background_size": "cover"
+                                }
+                            },
+                            "padding": {
+                                "class": "_none"
+                            },
+                            "padding_left": {
+                                "class": "_none"
+                            },
+                            "padding_top": {
+                                "class": "_none"
+                            },
+                            "padding_right": {
+                                "class": "_none"
+                            },
+                            "padding_bottom": {
+                                "class": "_none"
+                            },
+                            "margin": {
+                                "class": "_none"
+                            },
+                            "margin_left": {
+                                "class": "_none"
+                            },
+                            "margin_top": {
+                                "class": "_none"
+                            },
+                            "margin_right": {
+                                "class": "_none"
+                            },
+                            "margin_bottom": {
+                                "class": "_none"
+                            }
+                        }
+                    },
+                    "container_wrapper_bg_color_class": "",
+                    "container_wrapper_bg_media": null,
+                    "container": "container",
+                    "section_classes": "",
+                    "section_attributes": null,
+                    "regions_classes": {
+                        "blb_region_col_1": ""
+                    },
+                    "regions_attributes": {
+                        "blb_region_col_1": null
+                    },
+                    "breakpoints": [],
+                    "layout_regions_classes": [],
+                    "remove_gutters": "0",
+                    "context_mapping": []
+                },
+                "components": [
+                    {
+                        "uuid": "ab64d8ce-fa11-44c4-8d97-09e85c71ca7c",
+                        "region": "blb_region_col_1",
+                        "configuration": {
+                            "id": "inline_block:provus_faq_group",
+                            "label": "%AutoEntityLabel%",
+                            "label_display": false,
+                            "provider": "layout_builder",
+                            "view_mode": "full",
+                            "block_revision_id": null,
+                            "block_serialized": "O:40:\"Drupal\\block_content\\Entity\\BlockContent\":30:{s:15:\"\u0000*\u0000entityTypeId\";s:13:\"block_content\";s:15:\"\u0000*\u0000enforceIsNew\";b:1;s:12:\"\u0000*\u0000typedData\";N;s:16:\"\u0000*\u0000cacheContexts\";a:0:{}s:12:\"\u0000*\u0000cacheTags\";a:0:{}s:14:\"\u0000*\u0000cacheMaxAge\";i:-1;s:14:\"\u0000*\u0000_serviceIds\";a:0:{}s:18:\"\u0000*\u0000_entityStorages\";a:0:{}s:9:\"\u0000*\u0000values\";a:19:{s:2:\"id\";a:1:{s:9:\"x-default\";a:1:{i:0;a:1:{s:5:\"value\";N;}}}s:11:\"revision_id\";a:1:{s:9:\"x-default\";a:1:{i:0;a:1:{s:5:\"value\";N;}}}s:4:\"type\";a:1:{s:9:\"x-default\";a:1:{i:0;a:1:{s:9:\"target_id\";s:16:\"provus_faq_group\";}}}s:4:\"uuid\";a:1:{s:9:\"x-default\";a:1:{i:0;a:1:{s:5:\"value\";s:36:\"528ffcc4-6d62-49c8-b1c7-49d9aa0011a0\";}}}s:8:\"langcode\";a:1:{s:9:\"x-default\";a:1:{i:0;a:1:{s:5:\"value\";s:2:\"en\";}}}s:13:\"revision_user\";a:1:{s:9:\"x-default\";a:0:{}}s:16:\"revision_created\";a:1:{s:9:\"x-default\";a:1:{i:0;a:1:{s:5:\"value\";s:10:\"1698202531\";}}}s:12:\"revision_log\";a:1:{s:9:\"x-default\";a:0:{}}s:16:\"revision_default\";a:1:{s:9:\"x-default\";a:1:{i:0;a:1:{s:5:\"value\";s:1:\"1\";}}}s:17:\"isDefaultRevision\";a:1:{s:9:\"x-default\";s:1:\"1\";}s:6:\"status\";a:1:{s:9:\"x-default\";a:1:{i:0;a:1:{s:5:\"value\";s:1:\"1\";}}}s:4:\"info\";a:1:{s:9:\"x-default\";a:1:{i:0;a:1:{s:5:\"value\";s:51:\"Frequently Asked Questions (FAQ Group) - 1133162075\";}}}s:7:\"changed\";a:1:{s:9:\"x-default\";a:1:{i:0;a:1:{s:5:\"value\";s:10:\"1698202531\";}}}s:16:\"default_langcode\";a:1:{s:9:\"x-default\";a:1:{i:0;a:1:{s:5:\"value\";s:1:\"1\";}}}s:29:\"revision_translation_affected\";a:1:{s:9:\"x-default\";a:1:{i:0;a:1:{s:5:\"value\";s:1:\"1\";}}}s:8:\"reusable\";a:1:{s:9:\"x-default\";a:1:{i:0;a:1:{s:5:\"value\";s:1:\"0\";}}}s:17:\"field_provus_body\";a:1:{s:9:\"x-default\";a:1:{i:0;a:3:{s:5:\"value\";s:363:\"<p>Welcome to our FAQs section, designed to provide you with quick and comprehensive answers to common queries about life in Meridian County. Whether you're curious about local services, events, or regulations, we've got you covered. Explore this resource to find the information you need, and feel free to reach out if you can't find what you're looking for.<\/p>\";s:7:\"summary\";s:0:\"\";s:6:\"format\";s:10:\"basic_html\";}}}s:18:\"field_provus_items\";a:1:{s:9:\"x-default\";a:4:{i:0;a:1:{s:9:\"target_id\";s:3:\"229\";}i:1;a:1:{s:9:\"target_id\";s:3:\"230\";}i:2;a:1:{s:9:\"target_id\";s:3:\"231\";}i:3;a:1:{s:9:\"target_id\";s:3:\"232\";}}}s:18:\"field_provus_title\";a:1:{s:9:\"x-default\";a:1:{i:0;a:1:{s:5:\"value\";s:26:\"Frequently Asked Questions\";}}}}s:9:\"\u0000*\u0000fields\";a:0:{}s:19:\"\u0000*\u0000fieldDefinitions\";N;s:12:\"\u0000*\u0000languages\";N;s:14:\"\u0000*\u0000langcodeKey\";s:8:\"langcode\";s:21:\"\u0000*\u0000defaultLangcodeKey\";s:16:\"default_langcode\";s:17:\"\u0000*\u0000activeLangcode\";s:9:\"x-default\";s:18:\"\u0000*\u0000defaultLangcode\";s:2:\"en\";s:15:\"\u0000*\u0000translations\";a:1:{s:9:\"x-default\";a:1:{s:6:\"status\";i:1;}}s:24:\"\u0000*\u0000translationInitialize\";b:0;s:14:\"\u0000*\u0000newRevision\";b:0;s:20:\"\u0000*\u0000isDefaultRevision\";s:1:\"1\";s:13:\"\u0000*\u0000entityKeys\";a:2:{s:6:\"bundle\";s:16:\"provus_faq_group\";s:8:\"revision\";N;}s:25:\"\u0000*\u0000translatableEntityKeys\";a:5:{s:5:\"label\";a:1:{s:9:\"x-default\";s:51:\"Frequently Asked Questions (FAQ Group) - 1133162075\";}s:8:\"langcode\";a:1:{s:9:\"x-default\";s:2:\"en\";}s:9:\"published\";a:1:{s:9:\"x-default\";s:1:\"1\";}s:16:\"default_langcode\";a:1:{s:9:\"x-default\";s:1:\"1\";}s:29:\"revision_translation_affected\";a:1:{s:9:\"x-default\";s:1:\"1\";}}s:12:\"\u0000*\u0000validated\";b:0;s:21:\"\u0000*\u0000validationRequired\";b:0;s:19:\"\u0000*\u0000loadedRevisionId\";N;s:33:\"\u0000*\u0000revisionTranslationAffectedKey\";s:29:\"revision_translation_affected\";s:37:\"\u0000*\u0000enforceRevisionTranslationAffected\";a:0:{}s:12:\"\u0000*\u0000isSyncing\";b:0;s:8:\"\u0000*\u0000theme\";N;s:19:\"\u0000*\u0000accessDependency\";N;}",
+                            "context_mapping": [],
+                            "type": "provus_faq_group",
+                            "uuid": "e2f03d28-2577-4941-b9ff-d9e92953f056",
+                            "block_uuid": null
+                        },
+                        "weight": 1,
+                        "additional": []
+                    }
+                ],
+                "third_party_settings": []
+            }
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-10-25T05:30:22+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-10-25T05:30:22+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

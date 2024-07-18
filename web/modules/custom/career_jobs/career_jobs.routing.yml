@@ -1,0 +1,24 @@
+career_jobs.careerJobSearch:
+  path: '/career-jobs'
+  defaults:
+    _controller: '\Drupal\career_jobs\Controller\CareerJobsController::displayForm'
+    _title: 'Career Jet Job Search'
+  requirements:
+    _permission: 'access content'
+
+career_jobs.jobResults:
+  path: '/career-jobs/results'
+  defaults:
+    _controller: '\Drupal\career_jobs\Controller\CareerJobsController::getResult'
+    _title: 'Career Jet Jobs Result'
+
+  requirements:
+    _permission: 'access content'
+
+career_jobs.example:
+  path: '/career-jobs/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\career_jobs\Controller\CareerJobsController::build'
+  requirements:
+    _permission: 'access content'

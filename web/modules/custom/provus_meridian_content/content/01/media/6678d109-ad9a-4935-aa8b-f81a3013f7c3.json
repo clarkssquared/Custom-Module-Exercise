@@ -1,0 +1,165 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/provus-meridian-demo.docksal.site\/media\/4\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/provus-meridian-demo.docksal.site\/rest\/type\/media\/image"
+        },
+        "http:\/\/provus-meridian-demo.docksal.site\/rest\/relation\/media\/image\/uid": [
+            {
+                "href": "http:\/\/provus-meridian-demo.docksal.site\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/provus-meridian-demo.docksal.site\/rest\/relation\/media\/image\/thumbnail": [
+            {
+                "href": "",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/provus-meridian-demo.docksal.site\/rest\/relation\/media\/image\/field_media_image": [
+            {
+                "href": "",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 4
+        }
+    ],
+    "uuid": [
+        {
+            "value": "6678d109-ad9a-4935-aa8b-f81a3013f7c3"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-10-24T01:21:21+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/provus-meridian-demo.docksal.site\/rest\/relation\/media\/image\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/provus-meridian-demo.docksal.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/provus-meridian-demo.docksal.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4afaf6ee-b2d0-494e-96c7-fd625c72e3bd"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/provus-meridian-demo.docksal.site\/rest\/relation\/media\/image\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/provus-meridian-demo.docksal.site\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e9fb7797-1d9b-48aa-9865-114356eb4a9b"
+                    }
+                ],
+                "lang": "en",
+                "alt": "PurakaunuiFalls",
+                "title": null,
+                "width": "1090",
+                "height": "727"
+            }
+        ],
+        "http:\/\/provus-meridian-demo.docksal.site\/rest\/relation\/media\/image\/field_media_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/provus-meridian-demo.docksal.site\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e9fb7797-1d9b-48aa-9865-114356eb4a9b"
+                    }
+                ],
+                "lang": "en",
+                "alt": "PurakaunuiFalls",
+                "title": "",
+                "width": "1090",
+                "height": "727"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "PurakaunuiFalls_0.jpg",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-10-24T01:21:10+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-10-24T01:21:10+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ]
+}

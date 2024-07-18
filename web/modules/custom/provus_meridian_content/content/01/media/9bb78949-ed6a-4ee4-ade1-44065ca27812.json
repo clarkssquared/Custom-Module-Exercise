@@ -1,0 +1,165 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/newtheme.docksal.site\/media\/15\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/newtheme.docksal.site\/rest\/type\/media\/image"
+        },
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/media\/image\/uid": [
+            {
+                "href": "http:\/\/newtheme.docksal.site\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/media\/image\/thumbnail": [
+            {
+                "href": "",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/media\/image\/field_media_image": [
+            {
+                "href": "",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 15
+        }
+    ],
+    "uuid": [
+        {
+            "value": "9bb78949-ed6a-4ee4-ade1-44065ca27812"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-10-24T06:22:56+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/media\/image\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/newtheme.docksal.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/newtheme.docksal.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4afaf6ee-b2d0-494e-96c7-fd625c72e3bd"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/media\/image\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/newtheme.docksal.site\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "96f920c4-057c-4bb1-b51d-0e47142cacd3"
+                    }
+                ],
+                "lang": "en",
+                "alt": "Elevator",
+                "title": null,
+                "width": "1000",
+                "height": "563"
+            }
+        ],
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/media\/image\/field_media_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/newtheme.docksal.site\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "96f920c4-057c-4bb1-b51d-0e47142cacd3"
+                    }
+                ],
+                "lang": "en",
+                "alt": "Elevator",
+                "title": "",
+                "width": "1000",
+                "height": "563"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "photo-1562654501-9a587e8638d8.jpeg",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-10-24T06:22:29+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-10-24T06:22:29+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ]
+}

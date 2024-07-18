@@ -1,0 +1,12 @@
+name: 'Provus Advanced Calendar'
+type: module
+description: 'Advanced Calendar functionality for Provus Events.'
+core_version_requirement: ^9 || ^10
+package: 'Provus'
+dependencies:
+  - better_exposed_filters
+  - provus_events
+  - rest
+  - select2_multicheck
+  - serialization
+  - smart_date

@@ -1,0 +1,585 @@
+{
+    "moderation_state": [
+        {
+            "value": "published",
+            "lang": "en"
+        }
+    ],
+    "_links": {
+        "self": {
+            "href": "http:\/\/newtheme.docksal.site\/waste-recycling?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/newtheme.docksal.site\/rest\/type\/node\/provus_landing_page"
+        },
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/node\/provus_landing_page\/revision_uid": [
+            {
+                "href": "http:\/\/newtheme.docksal.site\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/node\/provus_landing_page\/uid": [
+            {
+                "href": "http:\/\/newtheme.docksal.site\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 26
+        }
+    ],
+    "uuid": [
+        {
+            "value": "0b7daf30-1cfb-41ca-96ca-07cb8b51d11b"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "provus_landing_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2023-10-25T05:28:39+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/node\/provus_landing_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/newtheme.docksal.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/newtheme.docksal.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4afaf6ee-b2d0-494e-96c7-fd625c72e3bd"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/node\/provus_landing_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/newtheme.docksal.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/newtheme.docksal.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4afaf6ee-b2d0-494e-96c7-fd625c72e3bd"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Waste & Recycling",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-10-25T02:31:23+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-10-25T05:28:39+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/waste-recycling",
+            "pid": 26,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "layout_builder__layout": [
+        {
+            "section": {
+                "layout_id": "bootstrap_layout_builder:blb_col_1",
+                "layout_settings": {
+                    "label": "",
+                    "container_wrapper_classes": "",
+                    "container_wrapper_attributes": null,
+                    "container_wrapper": {
+                        "bootstrap_styles": {
+                            "background": {
+                                "background_type": "color"
+                            },
+                            "background_color": {
+                                "class": null
+                            },
+                            "background_media": {
+                                "image": {
+                                    "media_id": null
+                                },
+                                "video": {
+                                    "media_id": null
+                                },
+                                "background_options": {
+                                    "background_position": "center",
+                                    "background_repeat": "no-repeat",
+                                    "background_attachment": "not_fixed",
+                                    "background_size": "cover"
+                                }
+                            },
+                            "padding": {
+                                "class": "_none"
+                            },
+                            "padding_left": {
+                                "class": "_none"
+                            },
+                            "padding_top": {
+                                "class": "_none"
+                            },
+                            "padding_right": {
+                                "class": "_none"
+                            },
+                            "padding_bottom": {
+                                "class": "_none"
+                            },
+                            "margin": {
+                                "class": "_none"
+                            },
+                            "margin_left": {
+                                "class": "_none"
+                            },
+                            "margin_top": {
+                                "class": "_none"
+                            },
+                            "margin_right": {
+                                "class": "_none"
+                            },
+                            "margin_bottom": {
+                                "class": "_none"
+                            }
+                        }
+                    },
+                    "container_wrapper_bg_color_class": "",
+                    "container_wrapper_bg_media": null,
+                    "container": "container",
+                    "section_classes": "",
+                    "section_attributes": null,
+                    "regions_classes": {
+                        "blb_region_col_1": ""
+                    },
+                    "regions_attributes": {
+                        "blb_region_col_1": null
+                    },
+                    "breakpoints": [],
+                    "layout_regions_classes": [],
+                    "remove_gutters": "0",
+                    "context_mapping": []
+                },
+                "components": [
+                    {
+                        "uuid": "540c7ce4-1661-47d1-ab08-0c6c5ea2227e",
+                        "region": "blb_region_col_1",
+                        "configuration": {
+                            "id": "field_block:node:provus_landing_page:body",
+                            "label": "Body",
+                            "label_display": "0",
+                            "provider": "layout_builder",
+                            "context_mapping": {
+                                "entity": "layout_builder.entity",
+                                "view_mode": "view_mode"
+                            },
+                            "formatter": {
+                                "type": "text_default",
+                                "label": "hidden",
+                                "settings": [],
+                                "third_party_settings": []
+                            }
+                        },
+                        "weight": 0,
+                        "additional": []
+                    },
+                    {
+                        "uuid": "250f6331-0b3c-4e48-8e63-533b855d6e84",
+                        "region": "blb_region_col_1",
+                        "configuration": {
+                            "id": "inline_block:provus_large_banner",
+                            "label": "%AutoEntityLabel%",
+                            "label_display": false,
+                            "provider": "layout_builder",
+                            "view_mode": "full",
+                            "block_serialized": null,
+                            "context_mapping": [],
+                            "type": "provus_large_banner",
+                            "uuid": "72a0d0a3-a7f4-4d57-bea2-1e1eab2136ed",
+                            "block_uuid": "72a0d0a3-a7f4-4d57-bea2-1e1eab2136ed"
+                        },
+                        "weight": 1,
+                        "additional": []
+                    }
+                ],
+                "third_party_settings": []
+            }
+        },
+        {
+            "section": {
+                "layout_id": "bootstrap_layout_builder:blb_col_1",
+                "layout_settings": {
+                    "label": "",
+                    "container_wrapper_classes": "",
+                    "container_wrapper_attributes": null,
+                    "container_wrapper": {
+                        "bootstrap_styles": {
+                            "background": {
+                                "background_type": null
+                            },
+                            "background_color": {
+                                "class": null
+                            },
+                            "background_media": {
+                                "image": {
+                                    "media_id": null
+                                },
+                                "video": {
+                                    "media_id": null
+                                },
+                                "background_options": {
+                                    "background_position": "center",
+                                    "background_repeat": "no-repeat",
+                                    "background_attachment": "not_fixed",
+                                    "background_size": "cover"
+                                }
+                            },
+                            "padding": {
+                                "class": "_none"
+                            },
+                            "padding_left": {
+                                "class": "_none"
+                            },
+                            "padding_top": {
+                                "class": "_none"
+                            },
+                            "padding_right": {
+                                "class": "_none"
+                            },
+                            "padding_bottom": {
+                                "class": "_none"
+                            },
+                            "margin": {
+                                "class": "_none"
+                            },
+                            "margin_left": {
+                                "class": "_none"
+                            },
+                            "margin_top": {
+                                "class": "_none"
+                            },
+                            "margin_right": {
+                                "class": "_none"
+                            },
+                            "margin_bottom": {
+                                "class": "_none"
+                            }
+                        }
+                    },
+                    "container_wrapper_bg_color_class": "",
+                    "container_wrapper_bg_media": null,
+                    "container": "container",
+                    "section_classes": "",
+                    "section_attributes": null,
+                    "regions_classes": {
+                        "blb_region_col_1": ""
+                    },
+                    "regions_attributes": {
+                        "blb_region_col_1": null
+                    },
+                    "breakpoints": [],
+                    "layout_regions_classes": [],
+                    "remove_gutters": "0",
+                    "context_mapping": []
+                },
+                "components": [
+                    {
+                        "uuid": "5086d61b-21bc-4d76-b373-9ab44debb114",
+                        "region": "blb_region_col_1",
+                        "configuration": {
+                            "id": "inline_block:provus_heading",
+                            "label": "%AutoEntityLabel%",
+                            "label_display": false,
+                            "provider": "layout_builder",
+                            "view_mode": "full",
+                            "block_serialized": null,
+                            "context_mapping": [],
+                            "type": "provus_heading",
+                            "uuid": "d6a506ca-b127-4816-bf56-37e0f5fd2a5f",
+                            "block_uuid": "d6a506ca-b127-4816-bf56-37e0f5fd2a5f"
+                        },
+                        "weight": 0,
+                        "additional": []
+                    },
+                    {
+                        "uuid": "dcef85ee-e4ba-466e-85ec-d417e1ca5f19",
+                        "region": "blb_region_col_1",
+                        "configuration": {
+                            "id": "inline_block:provus_group",
+                            "label": "%AutoEntityLabel%",
+                            "label_display": false,
+                            "provider": "layout_builder",
+                            "view_mode": "full",
+                            "block_serialized": null,
+                            "context_mapping": [],
+                            "type": "provus_group",
+                            "uuid": "4abbc60e-0dc6-4e62-9984-d2466c7e024e",
+                            "block_uuid": "4abbc60e-0dc6-4e62-9984-d2466c7e024e"
+                        },
+                        "weight": 1,
+                        "additional": []
+                    }
+                ],
+                "third_party_settings": []
+            }
+        },
+        {
+            "section": {
+                "layout_id": "bootstrap_layout_builder:blb_col_1",
+                "layout_settings": {
+                    "label": "",
+                    "container_wrapper_classes": "tab-usage",
+                    "container_wrapper_attributes": null,
+                    "container_wrapper": {
+                        "bootstrap_styles": {
+                            "background": {
+                                "background_type": "color"
+                            },
+                            "background_color": {
+                                "class": "bg-primary"
+                            },
+                            "background_media": {
+                                "image": {
+                                    "media_id": null
+                                },
+                                "video": {
+                                    "media_id": null
+                                },
+                                "background_options": {
+                                    "background_position": "center",
+                                    "background_repeat": "no-repeat",
+                                    "background_attachment": "not_fixed",
+                                    "background_size": "cover"
+                                }
+                            },
+                            "padding": {
+                                "class": "_none"
+                            },
+                            "padding_left": {
+                                "class": "_none"
+                            },
+                            "padding_top": {
+                                "class": "_none"
+                            },
+                            "padding_right": {
+                                "class": "_none"
+                            },
+                            "padding_bottom": {
+                                "class": "_none"
+                            },
+                            "margin": {
+                                "class": "_none"
+                            },
+                            "margin_left": {
+                                "class": "_none"
+                            },
+                            "margin_top": {
+                                "class": "_none"
+                            },
+                            "margin_right": {
+                                "class": "_none"
+                            },
+                            "margin_bottom": {
+                                "class": "_none"
+                            }
+                        }
+                    },
+                    "container_wrapper_bg_color_class": "",
+                    "container_wrapper_bg_media": null,
+                    "container": "container",
+                    "section_classes": "",
+                    "section_attributes": null,
+                    "regions_classes": {
+                        "blb_region_col_1": ""
+                    },
+                    "regions_attributes": {
+                        "blb_region_col_1": null
+                    },
+                    "breakpoints": [],
+                    "layout_regions_classes": [],
+                    "remove_gutters": "0",
+                    "context_mapping": []
+                },
+                "components": [
+                    {
+                        "uuid": "690f81cd-ec68-4c95-98a8-4368d2da1944",
+                        "region": "blb_region_col_1",
+                        "configuration": {
+                            "id": "inline_block:provus_tabs",
+                            "label": "%AutoEntityLabel%",
+                            "label_display": false,
+                            "provider": "layout_builder",
+                            "view_mode": "full",
+                            "block_serialized": null,
+                            "context_mapping": [],
+                            "type": "provus_tabs",
+                            "uuid": "13bf06ee-2cc8-4c2b-8f2d-ab6361bf4bfb",
+                            "block_uuid": "13bf06ee-2cc8-4c2b-8f2d-ab6361bf4bfb"
+                        },
+                        "weight": 0,
+                        "additional": []
+                    }
+                ],
+                "third_party_settings": []
+            }
+        },
+        {
+            "section": {
+                "layout_id": "bootstrap_layout_builder:blb_col_1",
+                "layout_settings": {
+                    "label": "",
+                    "container_wrapper_classes": "",
+                    "container_wrapper_attributes": null,
+                    "container_wrapper": {
+                        "bootstrap_styles": {
+                            "background": {
+                                "background_type": null
+                            },
+                            "background_color": {
+                                "class": null
+                            },
+                            "background_media": {
+                                "image": {
+                                    "media_id": null
+                                },
+                                "video": {
+                                    "media_id": null
+                                },
+                                "background_options": {
+                                    "background_position": "center",
+                                    "background_repeat": "no-repeat",
+                                    "background_attachment": "not_fixed",
+                                    "background_size": "cover"
+                                }
+                            },
+                            "padding": {
+                                "class": "_none"
+                            },
+                            "padding_left": {
+                                "class": "_none"
+                            },
+                            "padding_top": {
+                                "class": "_none"
+                            },
+                            "padding_right": {
+                                "class": "_none"
+                            },
+                            "padding_bottom": {
+                                "class": "_none"
+                            },
+                            "margin": {
+                                "class": "_none"
+                            },
+                            "margin_left": {
+                                "class": "_none"
+                            },
+                            "margin_top": {
+                                "class": "_none"
+                            },
+                            "margin_right": {
+                                "class": "_none"
+                            },
+                            "margin_bottom": {
+                                "class": "bs-mb-3"
+                            }
+                        }
+                    },
+                    "container_wrapper_bg_color_class": "",
+                    "container_wrapper_bg_media": null,
+                    "container": "container",
+                    "section_classes": "",
+                    "section_attributes": null,
+                    "regions_classes": {
+                        "blb_region_col_1": ""
+                    },
+                    "regions_attributes": {
+                        "blb_region_col_1": null
+                    },
+                    "breakpoints": [],
+                    "layout_regions_classes": [],
+                    "remove_gutters": "0",
+                    "context_mapping": []
+                },
+                "components": [
+                    {
+                        "uuid": "46adabed-d723-4a37-8f2e-bebfaf7976f3",
+                        "region": "blb_region_col_1",
+                        "configuration": {
+                            "id": "inline_block:provus_faq_group",
+                            "label": "%AutoEntityLabel%",
+                            "label_display": false,
+                            "provider": "layout_builder",
+                            "view_mode": "full",
+                            "block_serialized": null,
+                            "context_mapping": [],
+                            "type": "provus_faq_group",
+                            "uuid": "e2f03d28-2577-4941-b9ff-d9e92953f056",
+                            "block_uuid": "e2f03d28-2577-4941-b9ff-d9e92953f056"
+                        },
+                        "weight": 0,
+                        "additional": []
+                    }
+                ],
+                "third_party_settings": []
+            }
+        }
+    ]
+}

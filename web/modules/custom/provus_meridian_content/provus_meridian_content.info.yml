@@ -1,0 +1,6 @@
+name: 'Provus Meridian County Content'
+type: module
+description: 'Meridian County default content.'
+core_version_requirement: ^10.0
+dependencies:
+  - default_content:default_content_deploy

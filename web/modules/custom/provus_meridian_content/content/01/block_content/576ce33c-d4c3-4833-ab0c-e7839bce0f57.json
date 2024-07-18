@@ -1,0 +1,147 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/112?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_card"
+        },
+        "http:\/\/meridian28.docksal.site\/rest\/relation\/block_content\/provus_card\/field_provus_media_image": [
+            {
+                "href": "http:\/\/meridian28.docksal.site\/media\/33\/edit?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 112
+        }
+    ],
+    "uuid": [
+        {
+            "value": "576ce33c-d4c3-4833-ab0c-e7839bce0f57"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "provus_card"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2024-03-20T23:57:48+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "Trash Pickup Schedule (Card) - 266359818",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-03-25T08:43:23+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "| PROVUS"
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/meridian28.docksal.site\/homepage"
+            },
+            "lang": "en"
+        }
+    ],
+    "field_provus_body": [
+        {
+            "value": "<p><span>Residence are not left guessing when they can expect services. &nbsp;See the schedule for pick-up dates, time and frequency per District.&nbsp;<\/span><\/p>",
+            "format": "basic_html",
+            "processed": "<p><span>Residence are not left guessing when they can expect services. \u00a0See the schedule for pick-up dates, time and frequency per District.\u00a0<\/span><\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_provus_item_display": [
+        {
+            "value": "provus_card"
+        }
+    ],
+    "field_provus_links": [
+        {
+            "uri": "internal:#",
+            "title": "See the Schedule",
+            "options": {
+                "attributes": {
+                    "target": ""
+                },
+                "icon": "",
+                "class": "btn btn-primary"
+            }
+        }
+    ],
+    "_embedded": {
+        "http:\/\/meridian28.docksal.site\/rest\/relation\/block_content\/provus_card\/field_provus_media_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/meridian28.docksal.site\/media\/33\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/meridian28.docksal.site\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a7a2728e-e572-4bea-b533-9ae1df4f6579"
+                    }
+                ]
+            }
+        ]
+    },
+    "field_provus_title": [
+        {
+            "value": "Trash Pickup Schedule"
+        }
+    ]
+}

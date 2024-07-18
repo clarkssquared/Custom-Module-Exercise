@@ -1,0 +1,119 @@
+footer.site-footer {
+  background-color: $background-lightblue;
+  padding: rem-calc(60 0);
+  color: $text-secondary;
+  font-size: rem-calc(14);
+  h2 {
+    @include heading-small;
+    color: $primary-accent;
+  }
+  a.nav-link {
+    color: $text-secondary;
+    padding: 0;
+  }
+  a.navbar-brand {
+    margin-bottom: rem-calc(24);
+  }
+  .site-footer__top {
+    ul.nav {
+      display: block;
+      li {
+        margin-bottom: rem-calc(12);
+      }
+    }
+    .region-footer-first {
+      ul.nav {
+        display: flex;
+        gap: rem-calc(24);
+      }
+      .block-provus-basic-text .field--name-field-provus-body p {
+        @include text-style-body-body-2();
+      }
+    }
+  }
+  .site-footer__bottom {
+    border-top: 1px solid $secondary-accent;
+    padding-top: rem-calc(32);
+    margin-top: rem-calc(64);
+    section {
+      justify-content: space-between;
+      > * {
+        width: auto;
+      }
+    }
+    ul.nav {
+      gap: rem-calc(32);
+    }
+  }
+
+  .site-footer__bottom .block-provus-basic-text .field--name-field-provus-body p {
+    @include text-style-body-body-2;
+  }
+
+  .block-provus-button {
+    .field--name-field-provus-links {
+      display: flex;
+      gap: rem-calc(30);
+      a {
+        color: $text-secondary;
+        &:hover {
+          color: $primary-shade;
+        }
+        .svg-inline--fa {
+          height: rem-calc(24);
+          width: rem-calc(24);
+          color: $body-color;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 300px) and (max-width: 550px) and (orientation:portrait){
+  .site-footer .container .site-footer__top {
+    text-align: center;
+      .region-footer-first .block-provus-button {
+        display: ruby;
+      }
+
+      .region-footer-first {
+        justify-content: center;
+        .social-media-links-block .social-media-links--platforms.horizontal li {
+            padding: 0.2em 1em;
+          }
+      }
+  }
+  
+  .site-footer .site-footer__bottom {
+    text-align: center;
+      .menu-blockprovus-footer-menu-4 {
+        width: 100%;
+      }
+  }
+}
+
+@media (min-width: 300px) and (max-width: 900px) {
+  .site-footer .block-provus-basic-text .field--name-field-provus-body{
+    margin-top: rem-calc(7);
+  }
+
+  .site-footer .site-footer__bottom {
+    text-align: center;
+      .menu--provus-footer-menu-4 ul.nav {
+        display: flex;
+        gap: rem-calc(12.8) !important;
+        justify-content: center;
+      }
+  }
+}
+@media (min-width: 700px) and (max-width: 900px) and (orientation:portrait) {
+  .site-footer .container .region-footer-fourth{
+    margin-left: rem-calc(7);
+  }
+}
+
+@media (min-width: 300px) and (max-width: 900px) and (orientation:landscape){
+  .site-footer .container .region-footer-fourth{
+    margin-left: rem-calc(7);
+  }
+}

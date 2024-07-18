@@ -1,0 +1,4 @@
+search provus_search_ai:
+  title: 'Search Provus Search AI'
+administer provus_search_ai:
+  title: 'Administer Provus Search AI'

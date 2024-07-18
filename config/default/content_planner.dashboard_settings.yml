@@ -1,0 +1,51 @@
+blocks:
+  custom_html_block_1:
+    plugin_id: custom_html_block_1
+    title: 'Google Analytics'
+    weight: '5'
+    configured: true
+    plugin_specific_config:
+      content:
+        value: '<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/1e753ddc-16ee-4025-8e11-f530cbef195c/page/6zXD" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>'
+        format: full_html
+      allowed_roles:
+        authenticated: authenticated
+        administrator: 0
+        content_writer: 0
+        content_approver: 0
+  view_1_block:
+    plugin_id: view_1_block
+    title: 'Recent Edits By All Users'
+    weight: '1'
+    configured: true
+    plugin_specific_config:
+      view_1: content_recent.block_1
+      allowed_roles:
+        authenticated: authenticated
+        administrator: 0
+        content_writer: 0
+        content_approver: 0
+  content_state_statistic:
+    plugin_id: content_state_statistic
+    title: 'Content Status'
+    weight: '0'
+    configured: true
+    plugin_specific_config:
+      workflow_id: basic
+      allowed_roles:
+        administrator: administrator
+        content_writer: content_writer
+        content_approver: content_approver
+        authenticated: 0
+  view_2_block:
+    plugin_id: view_2_block
+    title: 'Drafts for Approval'
+    weight: '2'
+    configured: true
+    plugin_specific_config:
+      view_2: drafts_for_approval.block_1
+      allowed_roles:
+        authenticated: authenticated
+        administrator: 0
+        content_writer: 0
+        content_approver: 0

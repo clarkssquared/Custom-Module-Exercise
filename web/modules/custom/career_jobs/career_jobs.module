@@ -1,0 +1,11 @@
+<?php
+function career_jobs_theme($existing, $type, $theme, $path) {
+   return [
+    'job_search_results' => [
+      'variables' => [
+        'jobs' => [],
+        'pager' =>[],
+      ],
+    ],
+  ];
+}

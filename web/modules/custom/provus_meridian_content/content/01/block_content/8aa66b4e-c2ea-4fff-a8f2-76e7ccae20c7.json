@@ -1,0 +1,123 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/271?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_tab_item"
+        },
+        "http:\/\/meridian28.docksal.site\/rest\/relation\/block_content\/provus_tab_item\/field_provus_items": [
+            {
+                "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/190?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 271
+        }
+    ],
+    "uuid": [
+        {
+            "value": "8aa66b4e-c2ea-4fff-a8f2-76e7ccae20c7"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "provus_tab_item"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2024-03-20T23:28:16+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "Resources (Tab Item) - 1778685517",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-03-25T08:43:23+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "| PROVUS"
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/meridian28.docksal.site\/homepage"
+            },
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/meridian28.docksal.site\/rest\/relation\/block_content\/provus_tab_item\/field_provus_items": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/190?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_list"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "07d47e69-7516-447e-a775-da6d60db0501"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "field_provus_title": [
+        {
+            "value": "Resources",
+            "lang": "en"
+        }
+    ]
+}

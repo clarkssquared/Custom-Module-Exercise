@@ -1,0 +1,137 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/70?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_large_banner"
+        },
+        "http:\/\/meridian28.docksal.site\/rest\/relation\/block_content\/provus_large_banner\/field_provus_media_image": [
+            {
+                "href": "http:\/\/meridian28.docksal.site\/media\/25\/edit?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 70
+        }
+    ],
+    "uuid": [
+        {
+            "value": "72a0d0a3-a7f4-4d57-bea2-1e1eab2136ed"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "provus_large_banner"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-10-25T02:35:49+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "Waste & Recycling - (Large Banner) - 1055873713",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-03-25T08:43:23+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "| PROVUS"
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/meridian28.docksal.site\/homepage"
+            },
+            "lang": "en"
+        }
+    ],
+    "field_provus_body": [
+        {
+            "value": "<p>Serving Meridian county and promoting environmental sustainability<\/p>",
+            "format": "basic_html",
+            "processed": "<p>Serving Meridian county and promoting environmental sustainability<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_provus_large_banner_small": [
+        {
+            "value": false
+        }
+    ],
+    "_embedded": {
+        "http:\/\/meridian28.docksal.site\/rest\/relation\/block_content\/provus_large_banner\/field_provus_media_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/meridian28.docksal.site\/media\/25\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/meridian28.docksal.site\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "507e8ab9-6784-42f2-a7de-0647e95ace6f"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "field_provus_title": [
+        {
+            "value": "Waste & Recycling",
+            "lang": "en"
+        }
+    ]
+}

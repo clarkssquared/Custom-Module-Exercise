@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.provus-footer-menu-1
+  module:
+    - menu_block
+  theme:
+    - provus_meridian
+id: provus_meridian_footermenu1
+theme: provus_meridian
+region: footer_second
+weight: 0
+provider: null
+plugin: 'menu_block:provus-footer-menu-1'
+settings:
+  id: 'menu_block:provus-footer-menu-1'
+  label: 'Learn More'
+  label_display: visible
+  provider: menu_block
+  follow: false
+  follow_parent: child
+  label_link: false
+  label_type: block
+  level: 1
+  depth: 0
+  expand_all_items: false
+  parent: 'provus-footer-menu-1:'
+  suggestion: provus_footer_menu_1
+visibility: {  }

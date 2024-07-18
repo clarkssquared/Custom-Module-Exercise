@@ -1,0 +1,117 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/meridian24.docksal.site\/admin\/structure\/menu\/item\/3\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/meridian24.docksal.site\/rest\/type\/menu_link_content\/menu_link_content"
+        }
+    },
+    "id": [
+        {
+            "value": 3
+        }
+    ],
+    "uuid": [
+        {
+            "value": "60caadcb-ae24-4a2a-90ce-cd1e0d99a86d"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "value": "menu_link_content"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2024-03-06T05:51:56+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "enabled": [
+        {
+            "value": true
+        }
+    ],
+    "title": [
+        {
+            "value": "Services",
+            "lang": "en"
+        }
+    ],
+    "menu_name": [
+        {
+            "value": "main"
+        }
+    ],
+    "link": [
+        {
+            "uri": "internal:\/payments-portal",
+            "title": "",
+            "options": []
+        }
+    ],
+    "external": [
+        {
+            "value": false
+        }
+    ],
+    "rediscover": [
+        {
+            "value": true
+        }
+    ],
+    "weight": [
+        {
+            "value": -48
+        }
+    ],
+    "expanded": [
+        {
+            "value": false
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-03-20T09:53:47+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "| PROVUS"
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/meridian24.docksal.site\/homepage"
+            },
+            "lang": "en"
+        }
+    ]
+}

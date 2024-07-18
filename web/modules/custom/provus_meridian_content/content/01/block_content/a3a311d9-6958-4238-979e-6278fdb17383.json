@@ -1,0 +1,118 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/69?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_heading"
+        }
+    },
+    "id": [
+        {
+            "value": 69
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a3a311d9-6958-4238-979e-6278fdb17383"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "provus_heading"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-10-25T01:04:47+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "Get In Touch (Heading) - 822835716",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-10-25T01:04:47+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "| PROVUS"
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/meridian28.docksal.site\/homepage"
+            },
+            "lang": "en"
+        }
+    ],
+    "field_provus_alignment": [
+        {
+            "value": "left"
+        }
+    ],
+    "field_provus_decorative_line": [
+        {
+            "value": false
+        }
+    ],
+    "field_provus_heading_level": [
+        {
+            "value": "H2"
+        }
+    ],
+    "field_provus_sub_title": [
+        {
+            "value": "Contact",
+            "lang": "en"
+        }
+    ],
+    "field_provus_title": [
+        {
+            "value": "Get In Touch",
+            "lang": "en"
+        }
+    ]
+}

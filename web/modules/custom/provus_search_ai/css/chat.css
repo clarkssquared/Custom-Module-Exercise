@@ -1,0 +1,234 @@
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+}
+  to {
+    opacity: 1;
+}
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+}
+  to {
+    opacity: 1;
+}
+}
+
+.search-open-button {
+  background-color: #2a60ff;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+  z-index: 9999;
+}
+
+
+/* Chat block CSS */
+#search-chat-app-full--wrapper {
+  margin-bottom: 20px;
+}
+
+#search-chat-app-floating--wrapper {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 50;
+  display: none;
+  transition: opacity 1s ease-out;
+  -webkit-animation: fadeIn .5s;
+  animation: fadeIn .5s;
+  background-color: white;
+  box-shadow: 4px 4px 10px rgba(150,150,150,0.5);
+  margin-bottom: 0 !important;
+  width: 100%;
+  resize: both;
+  overflow: scroll;
+  padding: 20px;
+}
+
+.search-chat-app-wrapper .btn.cancel {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: .3rem;
+}
+
+.search-chat-app-wrapper .btn.fullwidth {
+  position: absolute;
+  top: 5px;
+  right: 35px;
+  padding: .3rem;
+}
+
+.search-chat-app-wrapper .btn.smallwidth {
+  position: absolute;
+  top: 5px;
+  right: 35px;
+  padding: .3rem;
+  display: none;
+}
+
+.search-chat-app-wrapper.fullwidth-modal .btn.fullwidth {
+  display: none;
+}
+
+.search-chat-app-wrapper.fullwidth-modal .btn.smallwidth {
+  display: block;
+}
+
+@media (min-width: 720px) {
+  .search-chat-app-wrapper {
+    border-radius: 12px;
+    bottom: 1rem;
+    right: 1rem;
+    width: 100%;
+  }
+
+  #search-chat-app-floating--wrapper {
+    width: 40%;
+  }
+}
+
+/* Block heading */
+.search-chat-app-wrapper h2 {
+  padding: 1rem;
+}
+
+@media (min-width: 720px) {
+  .search-chat-app-wrapper h2 {
+    border-radius: 12px 12px 0 0;
+  }
+}
+
+/* Form layout */
+.search-chat-app-wrapper form.chat-box {
+  display: flex;
+}
+
+/* Query field */
+.search-chat-app-wrapper input {
+  min-height: auto;
+  resize: none;
+  border: 0;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.1);
+  width: min(100%, 20rem);
+  flex-grow: 1;
+}
+
+.search-chat-app-wrapper button {
+  border: 0;
+  background: #2a60ff;
+  color: white;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.search-chat-app-wrapper button:disabled {
+  opacity: 0.5;
+}
+
+/* Response field */
+.search-chat-app-wrapper .chat-form-response {
+  overflow: scroll;
+  padding: 0.5rem 0;
+  max-height: 400px;
+  overflow: auto;
+}
+
+/* Force scrollbar to always show in response field */
+.search-chat-app-wrapper .chat-form-response h5 {
+  margin: 0;
+}
+
+.search-chat-app-wrapper .chat-form-response::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+.search-chat-app-wrapper .chat-form-response::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0,0,0,.5);
+  box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+/* Submit button. */
+.search-chat-app-wrapper .chat-form-send {
+  border: 1px 1px 1px 0 solid var(--color--gray-60);
+  padding-top: 0;
+  height: 75%;
+}
+
+.search-chat-app-wrapper .chat-form-response .message {
+  width: fit-content;
+  margin-bottom: 20px;
+}
+
+.search-chat-app-wrapper .chat-form-response .message ul {
+  margin: 0;
+  padding: 0;
+}
+
+.search-chat-app-wrapper .chat-form-response hr {
+  opacity: .2;
+  color: black;
+  margin: 10px 0;
+}
+
+.search-chat-app-wrapper .chat-form-response .message ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.search-chat-app-wrapper .chat-form-response .message .link a,
+.search-chat-app-wrapper .chat-form-response .message .highlight {
+  font-size: 0.875rem;
+  color: #646f79;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+
+.search-chat-app-wrapper .chat-form-response .message .title a {
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #2563eb;
+  line-height: 1.5rem;
+}
+
+.search-chat-app-wrapper .chat-form-response .message .text {
+  background: #eee;
+  padding: .5rem;
+  border-radius: 5px;
+}
+
+.search-chat-app-wrapper .chat-form-response .message .agent {
+  font-size: 70%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.search-chat-app-wrapper .loader {
+  width: 20px;
+}
+
+.search-chat-app-wrapper.fullwidth-modal {
+  width: 80%;
+  height: 80%;
+  left: 10%;
+  top: 10%;
+}
+
+.search-chat-app-wrapper.fullwidth-modal .chat-box {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

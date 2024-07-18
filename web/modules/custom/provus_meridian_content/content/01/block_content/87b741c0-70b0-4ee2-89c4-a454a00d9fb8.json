@@ -1,0 +1,118 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/4?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_heading"
+        }
+    },
+    "id": [
+        {
+            "value": 4
+        }
+    ],
+    "uuid": [
+        {
+            "value": "87b741c0-70b0-4ee2-89c4-a454a00d9fb8"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "provus_heading"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-10-24T02:16:33+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "Experience Meridian (Heading) - 855449327",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-10-24T02:16:33+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "| PROVUS"
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/meridian28.docksal.site\/homepage"
+            },
+            "lang": "en"
+        }
+    ],
+    "field_provus_alignment": [
+        {
+            "value": "left"
+        }
+    ],
+    "field_provus_decorative_line": [
+        {
+            "value": false
+        }
+    ],
+    "field_provus_heading_level": [
+        {
+            "value": "H2"
+        }
+    ],
+    "field_provus_sub_title": [
+        {
+            "value": "DISCOVER",
+            "lang": "en"
+        }
+    ],
+    "field_provus_title": [
+        {
+            "value": "Experience Meridian",
+            "lang": "en"
+        }
+    ]
+}

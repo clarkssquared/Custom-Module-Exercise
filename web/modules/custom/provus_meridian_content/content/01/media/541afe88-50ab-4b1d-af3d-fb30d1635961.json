@@ -1,0 +1,183 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/new-meridian2.docksal\/media\/70\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/new-meridian2.docksal\/rest\/type\/media\/image"
+        },
+        "http:\/\/new-meridian2.docksal\/rest\/relation\/media\/image\/uid": [
+            {
+                "href": "http:\/\/new-meridian2.docksal\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/new-meridian2.docksal\/rest\/relation\/media\/image\/thumbnail": [
+            {
+                "href": "",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/new-meridian2.docksal\/rest\/relation\/media\/image\/field_media_image": [
+            {
+                "href": "",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 70
+        }
+    ],
+    "uuid": [
+        {
+            "value": "541afe88-50ab-4b1d-af3d-fb30d1635961"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2024-03-14T06:27:12+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/new-meridian2.docksal\/rest\/relation\/media\/image\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/new-meridian2.docksal\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/new-meridian2.docksal\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "620fc3a0-6360-43a0-914f-2e4605974590"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/new-meridian2.docksal\/rest\/relation\/media\/image\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/new-meridian2.docksal\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4d5fd00c-e23c-42d0-967e-70cddbf75774"
+                    }
+                ],
+                "lang": "en",
+                "alt": "Big Tree",
+                "title": null,
+                "width": "3360",
+                "height": "2034"
+            }
+        ],
+        "http:\/\/new-meridian2.docksal\/rest\/relation\/media\/image\/field_media_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/new-meridian2.docksal\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4d5fd00c-e23c-42d0-967e-70cddbf75774"
+                    }
+                ],
+                "lang": "en",
+                "alt": "Big Tree",
+                "title": "",
+                "width": "3360",
+                "height": "2034"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "image (33).png",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-03-14T06:26:07+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-03-14T06:26:07+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "| PROVUS"
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/new-meridian2.docksal\/homepage"
+            },
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,146 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/meridian24.docksal.site\/admin\/structure\/menu\/item\/35\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/meridian24.docksal.site\/rest\/type\/menu_link_content\/menu_link_content"
+        },
+        "http:\/\/meridian24.docksal.site\/rest\/relation\/menu_link_content\/menu_link_content\/menu_link_content_parent_entity": [
+            {
+                "href": "http:\/\/meridian24.docksal.site\/admin\/structure\/menu\/item\/3\/edit?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 35
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c5437d58-e43a-4914-9b67-819a721a1c60"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "value": "menu_link_content"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2024-03-13T05:08:02+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "enabled": [
+        {
+            "value": true
+        }
+    ],
+    "title": [
+        {
+            "value": "Pay",
+            "lang": "en"
+        }
+    ],
+    "menu_name": [
+        {
+            "value": "main"
+        }
+    ],
+    "link": [
+        {
+            "uri": "internal:\/services\/payments-portal",
+            "title": "",
+            "options": []
+        }
+    ],
+    "external": [
+        {
+            "value": false
+        }
+    ],
+    "rediscover": [
+        {
+            "value": true
+        }
+    ],
+    "weight": [
+        {
+            "value": -46
+        }
+    ],
+    "expanded": [
+        {
+            "value": false
+        }
+    ],
+    "parent": [
+        {
+            "value": "menu_link_content:60caadcb-ae24-4a2a-90ce-cd1e0d99a86d"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-03-13T05:08:24+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "| PROVUS"
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/meridian24.docksal.site\/homepage"
+            },
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/meridian24.docksal.site\/rest\/relation\/menu_link_content\/menu_link_content\/menu_link_content_parent_entity": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/meridian24.docksal.site\/admin\/structure\/menu\/item\/3\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/meridian24.docksal.site\/rest\/type\/menu_link_content\/menu_link_content"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "60caadcb-ae24-4a2a-90ce-cd1e0d99a86d"
+                    }
+                ]
+            }
+        ]
+    }
+}

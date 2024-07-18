@@ -1,0 +1,100 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/216?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_basic_text"
+        }
+    },
+    "id": [
+        {
+            "value": 216
+        }
+    ],
+    "uuid": [
+        {
+            "value": "e07b6617-b950-427f-9eeb-f4a8ba73ce3a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "provus_basic_text"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-10-24T09:46:30+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "(Basic Text) - 1466727556",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-10-25T01:04:56+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "| PROVUS"
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/meridian28.docksal.site\/homepage"
+            },
+            "lang": "en"
+        }
+    ],
+    "field_provus_body": [
+        {
+            "value": "<p><span><strong>Contact<\/strong><\/span><\/p><p><span>The Meridian County Beautification Committee is actively working to serve residents by enhancing the appeal of our communities. Recent activities of the committee includes clean-up and beautification events where volunteers come together to clean public spaces. The committee also provides resources to assist residence beautify their own properties.<\/span><\/p><p>&nbsp;<\/p><p><span><strong>Address<\/strong><\/span><\/p><p><span>407 Apple Lane New City, NJ 40559<\/span><\/p><p>&nbsp;<\/p><p><span><strong>General Information<\/strong><\/span><\/p><p><span>Phone: 788-909-7878<\/span><\/p><p><span>Fax: 788-909-7879<\/span><\/p>",
+            "format": "basic_html",
+            "processed": "<p><span><strong>Contact<\/strong><\/span><\/p><p><span>The Meridian County Beautification Committee is actively working to serve residents by enhancing the appeal of our communities. Recent activities of the committee includes clean-up and beautification events where volunteers come together to clean public spaces. The committee also provides resources to assist residence beautify their own properties.<\/span><\/p><p>\u00a0<\/p><p><span><strong>Address<\/strong><\/span><\/p><p><span>407 Apple Lane New City, NJ 40559<\/span><\/p><p>\u00a0<\/p><p><span><strong>General Information<\/strong><\/span><\/p><p><span>Phone: 788-909-7878<\/span><\/p><p><span>Fax: 788-909-7879<\/span><\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

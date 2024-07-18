@@ -1,0 +1,100 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/255?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_basic_text"
+        }
+    },
+    "id": [
+        {
+            "value": 255
+        }
+    ],
+    "uuid": [
+        {
+            "value": "17f3816e-014f-49db-a57b-6cfc8cb3fcb5"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "provus_basic_text"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-10-25T04:28:14+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "(Basic Text) - 1316644269",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-10-25T04:28:14+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "| PROVUS"
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/meridian28.docksal.site\/homepage"
+            },
+            "lang": "en"
+        }
+    ],
+    "field_provus_body": [
+        {
+            "value": "<p>At the heart of our commitment to animal welfare, the Meridian County Adoption Shelter provides a safe haven for furry friends in need of loving homes. Our dedicated team works tirelessly to match each pet with a caring family, ensuring a brighter future for both animals and adopters. Explore our shelter, meet the adorable companions awaiting adoption, and make a difference by giving a forever home to a deserving pet.<\/p><p><strong>Animal Shelter<\/strong><br><strong>233 Wayne Avenue<\/strong><br><strong>Summersville, TN 25784<\/strong><\/p>",
+            "format": "basic_html",
+            "processed": "<p>At the heart of our commitment to animal welfare, the Meridian County Adoption Shelter provides a safe haven for furry friends in need of loving homes. Our dedicated team works tirelessly to match each pet with a caring family, ensuring a brighter future for both animals and adopters. Explore our shelter, meet the adorable companions awaiting adoption, and make a difference by giving a forever home to a deserving pet.<\/p><p><strong>Animal Shelter<\/strong><br \/><strong>233 Wayne Avenue<\/strong><br \/><strong>Summersville, TN 25784<\/strong><\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "promet/provus_advanced_calendar",
+    "description": "Provus advanced events calendar",
+    "type": "drupal-custom-module",
+    "license": "GPL-2.0-or-later",
+    "minimum-stability": "dev",
+    "require": {
+        "drupal/select2": "1.15.0",
+        "drupal/select2_multicheck": "1.0.5",
+        "npm-asset/select2": "4.0.13"
+    }
+}

@@ -1,0 +1,5 @@
+job_search_results:
+  version: 1.x
+  css:
+    theme:
+      css/job-search-results.css: {}

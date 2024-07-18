@@ -1,0 +1,100 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/meridian-demo-luc.docksal.site\/user\/1?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/meridian-demo-luc.docksal.site\/rest\/type\/user\/user"
+        }
+    },
+    "uid": [
+        {
+            "value": 2
+        }
+    ],
+    "uuid": [
+        {
+            "value": "43bad36d-473a-41fe-a70f-3928814f5f00"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "preferred_langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "meridian-admin"
+        }
+    ],
+    "mail": [
+        {
+            "value": "admin@prometsource.com"
+        }
+    ],
+    "timezone": [
+        {
+            "value": "America\/Chicago"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-10-23T22:43:52+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-10-23T22:47:15+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "access": [
+        {
+            "value": "2023-10-27T05:30:04+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "login": [
+        {
+            "value": "2023-10-27T05:30:04+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "init": [
+        {
+            "value": "admin@prometsource.com"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "pass": [
+        {
+            "value": "$2y$10$8o.ScZD\/sR1dYJERFZr79.N.o.JdohofOYIBY60LV2KwuYoiS\/EcS"
+        }
+    ]
+}

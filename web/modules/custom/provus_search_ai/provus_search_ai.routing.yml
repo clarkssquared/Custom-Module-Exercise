@@ -1,0 +1,47 @@
+provus_search_ai.query:
+  path: '/search-query'
+  defaults:
+    _title: 'Query Search AI'
+    _controller: 'Drupal\provus_search_ai\Controller\Query::index'
+  requirements:
+    _permission: 'search provus_search_ai'
+
+provus_search_ai.settings:
+  path: '/admin/config/search/provus-search-ai'
+  defaults:
+    _form: '\Drupal\provus_search_ai\Form\GeneralSettingsForm'
+    _title: 'Provus Search AI General Settings'
+  requirements:
+    _permission: 'administer provus_search_ai'
+
+provus_search_ai.kendra_settings:
+  path: '/admin/config/content/provus-search-ai/kendra'
+  defaults:
+    _form: '\Drupal\provus_search_ai\Form\AwsKendraSettingsForm'
+    _title: 'AWS Kendra API Settings'
+  requirements:
+    _permission: 'administer provus_search_ai'
+
+provus_search_ai.bedrock_settings:
+  path: '/admin/config/content/provus-search-ai/bedrock'
+  defaults:
+    _form: '\Drupal\provus_search_ai\Form\AwsBedrockSettingsForm'
+    _title: 'AWS Bedrock API Settings'
+  requirements:
+    _permission: 'administer provus_search_ai'
+
+provus_search_ai.sync:
+  path: '/admin/config/content/provus-search-ai/sync'
+  defaults:
+    _form: '\Drupal\provus_search_ai\Form\SyncForm'
+    _title: 'Sync Content'
+  requirements:
+    _permission: 'administer provus_search_ai'
+
+provus_search_ai.list:
+  path: '/admin/config/content/provus-search-ai/logs'
+  defaults:
+    _title: 'Provus Search AI Logs'
+    _controller: 'Drupal\provus_search_ai\Controller\Logs::index'
+  requirements:
+    _permission: 'administer provus_search_ai'

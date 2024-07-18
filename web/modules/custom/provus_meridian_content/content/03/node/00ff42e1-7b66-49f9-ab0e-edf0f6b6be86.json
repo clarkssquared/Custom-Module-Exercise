@@ -1,0 +1,165 @@
+{
+    "moderation_state": [
+        {
+            "value": "published",
+            "lang": "en"
+        }
+    ],
+    "_links": {
+        "self": {
+            "href": "http:\/\/newtheme.docksal.site\/faq\/faq-group?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/newtheme.docksal.site\/rest\/type\/node\/provus_faq_page"
+        },
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/node\/provus_faq_page\/revision_uid": [
+            {
+                "href": "http:\/\/newtheme.docksal.site\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/node\/provus_faq_page\/uid": [
+            {
+                "href": "http:\/\/newtheme.docksal.site\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/node\/provus_faq_page\/field_provus_faq_groups": [
+            {
+                "href": "http:\/\/newtheme.docksal.site\/admin\/content\/block\/291?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 46
+        }
+    ],
+    "uuid": [
+        {
+            "value": "00ff42e1-7b66-49f9-ab0e-edf0f6b6be86"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "provus_faq_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2024-01-15T05:54:25+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/node\/provus_faq_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/newtheme.docksal.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/newtheme.docksal.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4afaf6ee-b2d0-494e-96c7-fd625c72e3bd"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/node\/provus_faq_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/newtheme.docksal.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/newtheme.docksal.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4afaf6ee-b2d0-494e-96c7-fd625c72e3bd"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/node\/provus_faq_page\/field_provus_faq_groups": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/newtheme.docksal.site\/admin\/content\/block\/291?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/newtheme.docksal.site\/rest\/type\/block_content\/provus_faq_group"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "401518ed-d33d-4677-8a82-914b9536f086"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "How Do I..?",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-01-15T05:43:54+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-01-15T05:54:25+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/faq\/how-do-i",
+            "pid": 51,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ]
+}

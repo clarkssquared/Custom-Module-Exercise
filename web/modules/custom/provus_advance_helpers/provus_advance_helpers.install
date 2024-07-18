@@ -1,0 +1,47 @@
+<?php
+
+/**
+ * @file
+ * Install and uninstall functions for the Provus advance helpers.
+ */
+
+use Drupal\field\Entity\FieldConfig;
+use Drupal\node\Entity\NodeType;
+
+/**
+ * Implements hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ *
+ * @see system_install()
+ */
+function provus_advance_helpers_install() {
+  // Update the config settings to enable linkchecker.
+  $contentTypes = [
+    'provus_blog',
+    'provus_event',
+    'provus_faq_page',
+    'provus_landing_page',
+    'provus_news',
+    'provus_person',
+  ];
+
+  foreach ($contentTypes as $contentType) {
+    $node_type = NodeType::load($contentType);
+    if (!$node_type) {
+      continue;
+    }
+
+    $field = FieldConfig::loadByName('node', $contentType, 'body');
+    if (!$field) {
+      continue;
+    }
+
+    $field->set('third_party_settings', [
+      'linkchecker' => [
+        'scan' => TRUE,
+        'extractor' => 'html_link_extractor',
+      ],
+    ])->save();
+  }
+}

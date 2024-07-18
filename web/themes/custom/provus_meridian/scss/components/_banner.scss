@@ -1,0 +1,158 @@
+/* Banner */
+.short-banner {
+  @include breakout;
+  &#short-banner-style-light {
+    background: $gray-lightest;
+    color: $body-color;
+    padding: 0;
+  }
+  &#short-banner-style-primary {
+    background: $primary-shade;
+    color: $white;
+    padding: 0;
+    h1, h2 {
+      color: $white;
+    }
+  }
+  &#short-banner-style-secondary {
+    background: $secondary-shade;
+    color: $white;
+    padding: 0;
+    h1, h2 {
+      color: $white;
+    }
+  }
+  &#short-banner-style-white {
+    background: $white;
+    color: $body-color;
+    padding: 0;
+  }
+  &-inner {
+    .short-banner-content {
+      padding-top: rem-calc(50);
+      padding-bottom: rem-calc(50);
+      h1 {
+        margin-bottom: rem-calc(15);
+        color: $primary-shade;
+      }
+      h2 {
+        margin-bottom: rem-calc(15);
+        color: $secondary-shade;
+      }
+      p {
+        font-size: rem-calc(20);
+        line-height: rem-calc(32);
+      }
+    }
+    .short-banner-image {
+      div {
+        height: 100%;
+        margin: 0;
+      }
+      .field--type-image {
+        img {
+          margin: 0;
+          object-fit: cover;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+
+/* For mobile devices. */
+@media only screen and (max-width: 765px) {
+  .short-banner-title {
+      font-size: rem-calc(28);
+      line-height: rem-calc(30);
+  }
+  .short-banner-sub-title {
+      font-size: rem-calc(20);
+  }
+}
+
+/* For iPad devices */
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+        .short-banner-title {
+          font-size: rem-calc(58);
+        }
+  }
+
+
+/* Banner */
+.large-banner-background {
+  @include breakout;
+
+  padding: rem-calc(102 0);
+  background-size: cover !important;
+  /*height: rem-calc(584);*/
+
+  .large-banner-inner {
+    .large-banner-content {
+      .large-banner-title {
+        @include text-style-display-headline-display;
+        width: rem-calc(820);
+        height: max-content;
+      }
+      .large-banner-body {
+        @include text-style-subheadline-sub-1;
+        width: rem-calc(926);
+        height: max-content;
+      }
+      h1, p {
+        color: $white;
+        text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+      }
+      h1 {
+        margin-bottom: rem-calc(30);
+      }
+      p {
+        font-size: rem-calc(18);
+        line-height: rem-calc(32);
+        font-weight: 500;
+      }
+    }
+  }
+  .smaller-large-banner & {
+    padding: rem-calc(75 0);
+    height: auto;
+  }
+}
+
+// For mobile devices.
+@media (min-width: 300px) and (max-width: 900px) {
+  .large-banner-background {
+    h1, .large-banner-title {
+      font-size: 4rem !important;
+      line-height: 4.5rem !important;
+    }
+    .large-banner-title {
+      width: rem-calc(329) !important;
+      /*font-size: rem-calc(28) !important;
+      line-height: rem-calc(30) !important;*/
+    }
+    .large-banner-body {
+      width: rem-calc(334) !important;
+      font-size: rem-calc(16) !important;
+      line-height: rem-calc(32) !important;
+    }
+  }
+  .large-banner-inner .large-banner-content p{
+      font-size: rem-calc(16);
+      line-height: rem-calc(32);
+  }
+}
+
+// For iPad devices.
+@media (min-width: 910px) and (max-width: 1400px) {
+  .large-banner-background {
+    .large-banner-title {
+      width: rem-calc(750) !important;
+      font-size: 4rem !important;
+      line-height: 4.5rem !important;
+    }
+    .large-banner-body {
+      width: rem-calc(730) !important;
+    }
+  }
+}

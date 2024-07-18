@@ -1,0 +1,106 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/135?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_basic_text"
+        }
+    },
+    "id": [
+        {
+            "value": 135
+        }
+    ],
+    "uuid": [
+        {
+            "value": "e0843a21-908b-40ac-ae6a-5ec47ccfbdc9"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "provus_basic_text"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-10-24T05:13:18+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "Adaptive Swimming Lessons (Basic Text) - 520505598",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-10-24T05:13:18+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "| PROVUS"
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/meridian28.docksal.site\/homepage"
+            },
+            "lang": "en"
+        }
+    ],
+    "field_provus_body": [
+        {
+            "value": "<p>The Great River Aquatics swimming lesson program ensures that participants learn core swimming skills and is offered to all ages. As students acquire and perfect each necessary skill, they will advance from one level to the next through a logical progression of swim skills.&nbsp;<\/p><ul><li>Each class includes 10-60 minutes sessions, and<\/li><li>Includes a free swimming ability assessment prior and post class.<\/li><\/ul>",
+            "format": "basic_html",
+            "processed": "<p>The Great River Aquatics swimming lesson program ensures that participants learn core swimming skills and is offered to all ages. As students acquire and perfect each necessary skill, they will advance from one level to the next through a logical progression of swim skills.\u00a0<\/p><ul><li>Each class includes 10-60 minutes sessions, and<\/li><li>Includes a free swimming ability assessment prior and post class.<\/li><\/ul>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_provus_title": [
+        {
+            "value": "Adaptive Swimming Lessons",
+            "lang": "en"
+        }
+    ]
+}

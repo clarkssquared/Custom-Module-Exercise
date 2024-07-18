@@ -1,0 +1,31 @@
+<?php
+
+/**
+ * @file
+ * Custom module.
+ */
+
+/**
+ * Implements hook_preprocess_page().
+ */
+function provus_search_ai_preprocess_page(&$variables) {
+  $variables['#attached']['library'][] = 'provus_search_ai/js-app';
+}
+
+/**
+ * Implements hook_theme().
+ */
+function provus_search_ai_theme($existing, $type, $theme, $path) {
+  return [
+    'chat_block' => [
+      'variables' => [
+        'wrapper_id' => NULL,
+      ],
+    ],
+    'chat_full_block' => [
+      'variables' => [
+        'wrapper_id' => NULL,
+      ],
+    ],
+  ];
+}

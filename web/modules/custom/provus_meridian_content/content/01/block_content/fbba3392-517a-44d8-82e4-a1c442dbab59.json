@@ -1,0 +1,138 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/172?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_card"
+        },
+        "http:\/\/meridian28.docksal.site\/rest\/relation\/block_content\/provus_card\/field_provus_media_image": [
+            {
+                "href": "http:\/\/meridian28.docksal.site\/media\/49\/edit?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 172
+        }
+    ],
+    "uuid": [
+        {
+            "value": "fbba3392-517a-44d8-82e4-a1c442dbab59"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "provus_card"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-10-24T06:20:14+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "Building Permits (Card) - 1922883729",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-03-25T08:43:23+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "| PROVUS"
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/meridian28.docksal.site\/homepage"
+            },
+            "lang": "en"
+        }
+    ],
+    "field_provus_item_display": [
+        {
+            "value": "provus_card"
+        }
+    ],
+    "field_provus_links": [
+        {
+            "uri": "internal:#",
+            "title": "",
+            "options": {
+                "attributes": {
+                    "target": ""
+                },
+                "icon": "",
+                "class": ""
+            }
+        }
+    ],
+    "_embedded": {
+        "http:\/\/meridian28.docksal.site\/rest\/relation\/block_content\/provus_card\/field_provus_media_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/meridian28.docksal.site\/media\/49\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/meridian28.docksal.site\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6942f158-3c7b-4db1-905b-032120370746"
+                    }
+                ]
+            }
+        ]
+    },
+    "field_provus_title": [
+        {
+            "value": "Building Permits"
+        }
+    ]
+}

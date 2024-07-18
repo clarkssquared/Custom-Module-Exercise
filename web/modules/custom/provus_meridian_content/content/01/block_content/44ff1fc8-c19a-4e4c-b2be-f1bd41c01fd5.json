@@ -1,0 +1,162 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/228?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_group"
+        },
+        "http:\/\/meridian28.docksal.site\/rest\/relation\/block_content\/provus_group\/field_provus_block_items": [
+            {
+                "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/10?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/151?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/79?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 228
+        }
+    ],
+    "uuid": [
+        {
+            "value": "44ff1fc8-c19a-4e4c-b2be-f1bd41c01fd5"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "provus_group"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2024-03-19T05:05:09+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "(Group) - 694726761",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-03-25T08:43:23+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "| PROVUS"
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/meridian28.docksal.site\/homepage"
+            },
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/meridian28.docksal.site\/rest\/relation\/block_content\/provus_group\/field_provus_block_items": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/10?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_card"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0f57f7a5-0fbf-439b-b490-b9c9342d86e0"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/151?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_card"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6e74da83-9e38-4835-8b48-0d629f38f428"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/meridian28.docksal.site\/admin\/content\/block\/79?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/meridian28.docksal.site\/rest\/type\/block_content\/provus_card"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "32ac9e3a-e922-4024-89cb-bf411e68644f"
+                    }
+                ]
+            }
+        ]
+    },
+    "field_provus_group_display": [
+        {
+            "value": "grid_3"
+        }
+    ],
+    "field_provus_item_display": [
+        {
+            "value": "provus_card",
+            "lang": "en"
+        }
+    ]
+}

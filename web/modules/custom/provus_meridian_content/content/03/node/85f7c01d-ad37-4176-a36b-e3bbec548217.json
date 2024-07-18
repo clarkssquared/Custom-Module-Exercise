@@ -1,0 +1,185 @@
+{
+    "moderation_state": [
+        {
+            "value": "published",
+            "lang": "en"
+        }
+    ],
+    "_links": {
+        "self": {
+            "href": "http:\/\/newtheme.docksal.site\/blog\/test-ai-government-sites-tap-ai-enhanced-ux-and-engagement?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/newtheme.docksal.site\/rest\/type\/node\/provus_blog"
+        },
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/node\/provus_blog\/revision_uid": [
+            {
+                "href": "http:\/\/newtheme.docksal.site\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/node\/provus_blog\/uid": [
+            {
+                "href": "http:\/\/newtheme.docksal.site\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/node\/provus_blog\/field_provus_media_image": [
+            {
+                "href": "http:\/\/newtheme.docksal.site\/media\/3\/edit?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 41
+        }
+    ],
+    "uuid": [
+        {
+            "value": "85f7c01d-ad37-4176-a36b-e3bbec548217"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "provus_blog"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2023-11-06T14:58:09+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/node\/provus_blog\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/newtheme.docksal.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/newtheme.docksal.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4afaf6ee-b2d0-494e-96c7-fd625c72e3bd"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/node\/provus_blog\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/newtheme.docksal.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/newtheme.docksal.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4afaf6ee-b2d0-494e-96c7-fd625c72e3bd"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/newtheme.docksal.site\/rest\/relation\/node\/provus_blog\/field_provus_media_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/newtheme.docksal.site\/media\/3\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/newtheme.docksal.site\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1f809599-81e0-41c6-b0ab-0c4fb605bf6a"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "TEST for AI : Government Sites Tap AI for Enhanced UX and Engagement",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-11-06T14:53:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-11-06T14:58:09+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/blog\/test-ai-government-sites-tap-ai-enhanced-ux-and-engagement",
+            "pid": 46,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>As artificial intelligence (AI) is steadily seeping into nearly every aspect of modern life, government website stakeholders are sorting through what\u2019s new and next to explore possibilities, embrace advantages, and avoid pitfalls.&nbsp;<\/p><p>AI refers to a multifaceted mix of technologies, that draw upon advanced computer systems and algorithms to simulate human intelligence and reasoning.<\/p><p>AI is essentially an umbrella term that incorporates machine learning and deep learning, both of which are designed to continuously learn from data \u2013 functioning far beyond the types of outcomes that can result from explicit programming.<\/p><p>&nbsp;<\/p><h2>What are the top applications for AI in local government websites?<\/h2><p>The potential for AI to enhance the functionality, efficiency, and user experience of county and municipal government websites is huge. The top five AI applications are currently:&nbsp;<\/p><ol><li>Language translation,<\/li><li>Content personalization,<\/li><li>Search enhancements,<\/li><li>Chat for customer support, and<\/li><li>Predictive analytics.<\/li><\/ol><p>&nbsp;<\/p><h3>Language translation<\/h3><p>It's now the norm, not the exception, for counties and municipalities to serve diverse populations that speak a wide variety of languages.<\/p><p>AI language translation tools, such as the <a href=\"https:\/\/www.drupal.org\/project\/openai_translation\">Drupal OpenAI Translation Toolbox,<\/a> can automatically translate website content into multiple languages, making information accessible to a broader audience.<\/p><p>As websites increasingly serve as the front door from which local governments serve and interact with all constituents, robust translation capabilities that can serve a multilingual population, are helping to break down language barriers and ensure inclusive, efficient government services and outreach.<\/p><p>&nbsp;<\/p><h3>Content personalization<\/h3><p>Content personalization capabilities have the potential to transform user experience.<\/p><p>By analyzing user behavior and preferences, AI powered applications can recommend relevant information and services, making an individual\u2019s experience on the site more efficient and tailored to their needs.<\/p><p>One example of content personalization for a user that frequently searches for for children-related activities and events, would be a prioritization of this type of content, by highlighting or efficiently directing them to topics that are likely to be of interest.<\/p><p>&nbsp;<\/p><h3>Search enhancements<\/h3><p>With the intention of efficiently delivering relevant search results, machine learning and natural language processing capabilities are managing to more accurately understand the intent behind search queries, based on user behavior and search patterns.<\/p><p>Traditionally, text entered in a search box produced the same results, regardless of the user. AI enhancements are making it possible to produce more relevant results that are adjusted in real time based on factors such as a user\u2019s browsing history and the intent commonly associated with the words used. &nbsp;<\/p><p>&nbsp;<\/p><h3>Chat for instant support<\/h3><p>AI-powered chat is currently the most common form of AI on county and municipal government websites.<\/p><p>Chat can provide immediate responses to frequently asked questions, guide users through complex processes, and offer assistance 24\/7. The potential benefits of chat functionality are deep and far reaching, and include:<\/p><ul><li><strong>Cost savings<\/strong>. By reducing the need for support staff to respond directly to routine inquiries, chatbots cut operational costs and free up staff to focus on more complex tasks.<\/li><li><strong>Efficiency and consistency<\/strong>. Chatbots can provide quick and consistent responses to frequently asked questions, making it easier for users to find information and access services without waiting on hold or for calls or emails to be returned.&nbsp;<\/li><li><strong>Availability<\/strong>: 24\/7 availability combined with multilingual capabilities broadens access to a diverse population.&nbsp;<\/li><li><strong>Scalability<\/strong>. The ability to handle a high volume of citizen inquiries simultaneously, is a critical for government websites that experience varying levels of traffic.&nbsp;<\/li><li><strong>Data collection and analysis<\/strong>: Chatbots\u2019 ability to collect data pertaining to citizen inquiries provides valuable data concerning citizen needs and concerns.<\/li><\/ul><p>&nbsp;<\/p><h3>Predictive analytics<\/h3><p>AI-driven predictive analytics can help local governments optimize resource allocation.<\/p><p>By analyzing historical data and web usage activity or inquiries, AI models can help inform decision-making on issues that range from improvements to web navigation and content, to usage patterns, to primary sources of complaints and concerns.&nbsp;<\/p><p>&nbsp;<\/p><h2>How is AI currently being used in county and municipal government websites?<\/h2><p>With chat currently serving as the most prevalent form of AI on county and municipal government websites, new possibilities for AI are a top-of-mind consideration among public sector website stakeholders looking to enhance user experiences and streamline government operations.<\/p><p>Here are a four examples of municipal websites are making excellent use of AI applications:<\/p><p>&nbsp;<\/p><h3>Chat functions<\/h3><p>Top navigation icons for the <a href=\"https:\/\/lacity.gov\/\">City of Los Angeles website<\/a>, begin with a \u201cChat with Chip\u201d option, followed by Language Translation, Accessibility, and Search.<\/p><p>&nbsp;<\/p><p>When clicked, \u201cChat with Chip\u201d opens into an inviting window for inquiries \u2013 versus the typical chat user experience, which appears as a small speech bubble in the lower right of the screen.<\/p><p>As Los Angeles been hit particularly hard with the Covid-19 pandemic, the chat function encourages residents to seek accurate and up-to-date information and resources.<\/p><p>The chat function for the <a href=\"https:\/\/www.sanjoseca.gov\/\">San Jose, Calif., website<\/a> appears in the more traditional location. It explicitly encourages inquiries.<\/p><p>And the level of functionality is clearly robust \u2014 suggestions of multiple options for inquiries, along with an open-ended question box.<\/p><p>&nbsp;<\/p><h3>Language options<\/h3><p>With a drop down in the upper right for language options that include English, Suomi, and Svenski, Finland\u2019s capital city of <a href=\"https:\/\/kerrokantasi.hel.fi\/?lang=en\">Helsinki\u2019s website<\/a>, consistently leverages AI to encourage citizen engagement and to filter analytics concerning how citizens are using the site, in order to improve city services, as well as the user experience of the site itself.<\/p><p>&nbsp;<\/p><h3>Personalized content<\/h3><p>The <a href=\"https:\/\/www.barcelona.cat\/en\/\">website for the City of Barcelona<\/a> in Spain is utilizing AI to provide personalized content to users. Information and services are tailored for individual users based on their behaviors and preferences. &nbsp;<\/p><p>&nbsp;<\/p><h2>What are some pitfalls of relying on AI for government websites?<\/h2><p>In the words of former President Ronald Reagan, \u201cTrust but verify.\u201d<\/p><p>AI-generated information tends to be surface-level. While information can be amazingly on target, there is the possibility of nuanced inaccuracies or true misinformation.<\/p><p>Here\u2019s an example of how AI can miss the mark:<\/p><p>&nbsp;<\/p><h3>Reasons to be cautious of AI<\/h3><p>A ChatGPT query concerning examples of AI applications currently deployed on county and municipal government websites resulted in the following response:&nbsp;<\/p><p><em>\u201cSan Francisco implemented a chatbot on its website to assist residents with common inquiries, report issues, and find information about city services. This chatbot aimed to provide quick and efficient customer support.\u201d<\/em><\/p><p>A review of the website for the City of San Francisco reveals that this is not the case. What was likely being referenced was an entirely separate site, <a href=\"https:\/\/censusgpt.com\/sf\">San Francisco GPT<\/a>. This site, however, is still very much in its beta form, and is not integrated into the official website for the city.&nbsp;<\/p><p>In addition to widely reported inaccuracies, here are six additional reasons to exercise caution before diving too deep or too fast into AI at this point. &nbsp;<\/p><ul><li><strong>Accessibility<\/strong>. AI applications, if not designed and tested with Web Content Accessibility Guidelines in mind, can result in accessibility issues for people with disabilities.&nbsp;<\/li><li><strong>Privacy and Data Security<\/strong>. AI applications often involve collecting and processing user data. Robust systems need to be in place to protect this information. Data breaches or misuse can have serious legal and reputational consequences.<\/li><li><strong>Bias and Fairness<\/strong>. AI models can inherit biases from the data they are trained on. If these biases are not properly addressed, they can lead to unfair or discriminatory outcomes, which is especially problematic for government services.<\/li><li><strong>Transparency and Accountability<\/strong>: Transparency in decision-making is a fundamental principle in government. AI systems can be complex, making it challenging to explain their decisions, which can erode public trust.&nbsp;<\/li><li><strong>Resource Allocation<\/strong>. Developing and maintaining AI applications can be a resource-intensive use of taxpayer dollars. Costs need to be justified.&nbsp;<\/li><li><strong>Vendor Dependence<\/strong>. Many governments rely on third-party vendors to provide AI solutions. As open-source enthusiasts, we at Promet Source vigorously caution against the potential perils of vendor lock-in and data ownership.&nbsp;<\/li><\/ul><p>While each of the above six factors are significant, this is not to say that we at Promet are not 100% on board with the possibilities and potential of AI for county and municipal government websites. New challenges are inherent to new technology.<\/p><p>What\u2019s important is to be aware of issues as they emerge and ensure that they are addressed ethically and efficiently.<\/p><p>&nbsp;<\/p><h2>Drupal AI modules that can be worked into public sector sites right now<\/h2><p>As was perceptively anticipated in an <a href=\"https:\/\/www.prometsource.com\/blog\/AI-for-Drupal\">AI applications for Drupal blog<\/a> published on this site earlier this year by Sonal Bendle, 2023 has shaped up to be the year that AI catapulted past the hype and into the mainstream of life and work \u2013 as well as <a href=\"https:\/\/www.prometsource.com\/services\/drupal-development\">Drupal development<\/a>.&nbsp;<\/p><p>Here are some exciting new Drupal AI module developments can be deployed right now to leverage the potential of AI within government websites:<\/p><ul><li><a href=\"https:\/\/www.drupal.org\/project\/open_ai_metadata\"><strong>Open AI Metadata<\/strong><\/a> uses Open AI to generate meta description for different content types.&nbsp;<\/li><li>The <a href=\"https:\/\/www.drupal.org\/project\/ai_interpolator\"><strong>AI Interpolator<\/strong><\/a> module is an API enabler to aid in the transformation or interpolation of one field into something else \u2013 such as descriptive text into an image.&nbsp;<\/li><li><a href=\"https:\/\/www.drupal.org\/project\/ai_interpolator_openai\"><strong>The AI Interpolator Open AI<\/strong><\/a> module is a plugin for the AI Interpolator module that makes it possible to use the power of AI to manipulate nodes, entities, blocks, and other content types.&nbsp;<\/li><li>The <a href=\"https:\/\/www.drupal.org\/project\/openai_translation\">Open AI Translation Toolbox<\/a> is a module designed for to provide an efficient means to produce translations for multilingual websites. It leverages the capabilities of the OpenAI platform, including Azure OpenAI, to generate accurate translations for all enabled languages on a Drupal site.&nbsp;<\/li><li><a href=\"https:\/\/www.drupal.org\/project\/openai\">Open AI \/ Chat GPT \/ AI Search Integration<\/a>. OpenAI is the company behind artificial generational intelligence products that power applications such as ChatGPT, GPT-3, and GitHub CoPilot. The&nbsp;Open AI \/ Chat GPT \/ AI Search Integration module aims to provide a suite of modules and an API foundation for OpenAI integration in Drupal for generating text content, images, content analysis and more, with a goal of augmenting and adding assistive AI tech and leveraging OpenAI API services in Drupal.&nbsp;<\/li><li><a href=\"https:\/\/www.drupal.org\/project\/openai_images\">Open AI Images<\/a> is a Drupal module that leverages the OpenAI API to generate images from text descriptions. This module enables the effortless transformation of textual content into images. Using the OpenAI API's advanced natural language processing capabilities, the module interprets the provided text and generates corresponding images that capture the essence of the description. The generated images can then be saved as media entities on a Drupal site\u2019s media library, ensuring easy access and management.<\/li><li>The <a href=\"https:\/\/www.drupal.org\/project\/ai_image\"><strong>Artificial intelligence Image Generator<\/strong><\/a> module provides a CKEditor 5 plugin to generate images using artificial intelligence.<\/li><li>The <a href=\"https:\/\/www.drupal.org\/project\/leap_ai\"><strong>Leap AI<\/strong><\/a> module enables the remote generation images via the Leap AI (https:\/\/tryleap.ai\/). It provides a media source plugin that allows for the creation, configuration, and management AI-generated images directly within a Drupal site \u2013 allowing for dynamic and customizable visual content.&nbsp;<\/li><li><a href=\"https:\/\/www.drupal.org\/project\/augmentor\"><strong>Augmentor AI<\/strong><\/a><strong> <\/strong>is an AI framework for Drupal which allows for the easy integration of disparate AI systems into Drupal, providing a pluggable ecosystem for managing a variety of AI services such as GPT3, ChatGPT, NLP Cloud, Google Cloud Vision and many more.<\/li><li><a href=\"https:\/\/www.drupal.org\/project\/ai_connect\"><strong>AI Connect<\/strong><\/a> is a powerful Drupal module that serves as a bridge between Drupal and AI-powered services, and is designed to fast track content creation by seamlessly integrating with cutting-edge AI technology.&nbsp;<\/li><li><a href=\"https:\/\/www.drupal.org\/project\/aiwork\"><strong>AI Work<\/strong><\/a> is a backend module that end users will not interact with directly. It serves as a flexible system and data structure creation tool for building AI apps and agents.&nbsp;The&nbsp;<a href=\"https:\/\/www.drupal.org\/project\/aichat\">AI chat user interface<\/a> will be first module to use AI Work as a default backend.<\/li><li><a href=\"https:\/\/www.drupal.org\/project\/search_api_ai\"><strong>Search API AI<\/strong><\/a> is a cutting-edge module that provides a collection of tools to integrate artificial intelligence and advanced search capabilities into a Drupal site. By leveraging the OpenAI Embedding API and storing vectors in Pinecone, this module enables the creation of powerful, AI-driven search experiences.<\/li><\/ul><p>This is a short list and a start concerning Drupal\u2019s depth and breadth of potential within AI.&nbsp;<\/p><p>Interested in pulling it all together \u2013 leveraging the power of Drupal alongside the potential of innovations in AI module development? That\u2019s what we do. <a href=\"https:\/\/www.prometsource.com\/contact\">Let\u2019s talk right now<\/a> about AI features and functions that can take your website to the next level and beyond.<\/p>",
+            "format": "basic_html",
+            "processed": "<p>As artificial intelligence (AI) is steadily seeping into nearly every aspect of modern life, government website stakeholders are sorting through what\u2019s new and next to explore possibilities, embrace advantages, and avoid pitfalls.\u00a0<\/p><p>AI refers to a multifaceted mix of technologies, that draw upon advanced computer systems and algorithms to simulate human intelligence and reasoning.<\/p><p>AI is essentially an umbrella term that incorporates machine learning and deep learning, both of which are designed to continuously learn from data \u2013 functioning far beyond the types of outcomes that can result from explicit programming.<\/p><p>\u00a0<\/p><h2>What are the top applications for AI in local government websites?<\/h2><p>The potential for AI to enhance the functionality, efficiency, and user experience of county and municipal government websites is huge. The top five AI applications are currently:\u00a0<\/p><ol><li>Language translation,<\/li><li>Content personalization,<\/li><li>Search enhancements,<\/li><li>Chat for customer support, and<\/li><li>Predictive analytics.<\/li><\/ol><p>\u00a0<\/p><h3>Language translation<\/h3><p>It's now the norm, not the exception, for counties and municipalities to serve diverse populations that speak a wide variety of languages.<\/p><p>AI language translation tools, such as the <a href=\"https:\/\/www.drupal.org\/project\/openai_translation\">Drupal OpenAI Translation Toolbox,<\/a> can automatically translate website content into multiple languages, making information accessible to a broader audience.<\/p><p>As websites increasingly serve as the front door from which local governments serve and interact with all constituents, robust translation capabilities that can serve a multilingual population, are helping to break down language barriers and ensure inclusive, efficient government services and outreach.<\/p><p>\u00a0<\/p><h3>Content personalization<\/h3><p>Content personalization capabilities have the potential to transform user experience.<\/p><p>By analyzing user behavior and preferences, AI powered applications can recommend relevant information and services, making an individual\u2019s experience on the site more efficient and tailored to their needs.<\/p><p>One example of content personalization for a user that frequently searches for for children-related activities and events, would be a prioritization of this type of content, by highlighting or efficiently directing them to topics that are likely to be of interest.<\/p><p>\u00a0<\/p><h3>Search enhancements<\/h3><p>With the intention of efficiently delivering relevant search results, machine learning and natural language processing capabilities are managing to more accurately understand the intent behind search queries, based on user behavior and search patterns.<\/p><p>Traditionally, text entered in a search box produced the same results, regardless of the user. AI enhancements are making it possible to produce more relevant results that are adjusted in real time based on factors such as a user\u2019s browsing history and the intent commonly associated with the words used. \u00a0<\/p><p>\u00a0<\/p><h3>Chat for instant support<\/h3><p>AI-powered chat is currently the most common form of AI on county and municipal government websites.<\/p><p>Chat can provide immediate responses to frequently asked questions, guide users through complex processes, and offer assistance 24\/7. The potential benefits of chat functionality are deep and far reaching, and include:<\/p><ul><li><strong>Cost savings<\/strong>. By reducing the need for support staff to respond directly to routine inquiries, chatbots cut operational costs and free up staff to focus on more complex tasks.<\/li><li><strong>Efficiency and consistency<\/strong>. Chatbots can provide quick and consistent responses to frequently asked questions, making it easier for users to find information and access services without waiting on hold or for calls or emails to be returned.\u00a0<\/li><li><strong>Availability<\/strong>: 24\/7 availability combined with multilingual capabilities broadens access to a diverse population.\u00a0<\/li><li><strong>Scalability<\/strong>. The ability to handle a high volume of citizen inquiries simultaneously, is a critical for government websites that experience varying levels of traffic.\u00a0<\/li><li><strong>Data collection and analysis<\/strong>: Chatbots\u2019 ability to collect data pertaining to citizen inquiries provides valuable data concerning citizen needs and concerns.<\/li><\/ul><p>\u00a0<\/p><h3>Predictive analytics<\/h3><p>AI-driven predictive analytics can help local governments optimize resource allocation.<\/p><p>By analyzing historical data and web usage activity or inquiries, AI models can help inform decision-making on issues that range from improvements to web navigation and content, to usage patterns, to primary sources of complaints and concerns.\u00a0<\/p><p>\u00a0<\/p><h2>How is AI currently being used in county and municipal government websites?<\/h2><p>With chat currently serving as the most prevalent form of AI on county and municipal government websites, new possibilities for AI are a top-of-mind consideration among public sector website stakeholders looking to enhance user experiences and streamline government operations.<\/p><p>Here are a four examples of municipal websites are making excellent use of AI applications:<\/p><p>\u00a0<\/p><h3>Chat functions<\/h3><p>Top navigation icons for the <a href=\"https:\/\/lacity.gov\/\">City of Los Angeles website<\/a>, begin with a \u201cChat with Chip\u201d option, followed by Language Translation, Accessibility, and Search.<\/p><p>\u00a0<\/p><p>When clicked, \u201cChat with Chip\u201d opens into an inviting window for inquiries \u2013 versus the typical chat user experience, which appears as a small speech bubble in the lower right of the screen.<\/p><p>As Los Angeles been hit particularly hard with the Covid-19 pandemic, the chat function encourages residents to seek accurate and up-to-date information and resources.<\/p><p>The chat function for the <a href=\"https:\/\/www.sanjoseca.gov\/\">San Jose, Calif., website<\/a> appears in the more traditional location. It explicitly encourages inquiries.<\/p><p>And the level of functionality is clearly robust \u2014 suggestions of multiple options for inquiries, along with an open-ended question box.<\/p><p>\u00a0<\/p><h3>Language options<\/h3><p>With a drop down in the upper right for language options that include English, Suomi, and Svenski, Finland\u2019s capital city of <a href=\"https:\/\/kerrokantasi.hel.fi\/?lang=en\">Helsinki\u2019s website<\/a>, consistently leverages AI to encourage citizen engagement and to filter analytics concerning how citizens are using the site, in order to improve city services, as well as the user experience of the site itself.<\/p><p>\u00a0<\/p><h3>Personalized content<\/h3><p>The <a href=\"https:\/\/www.barcelona.cat\/en\/\">website for the City of Barcelona<\/a> in Spain is utilizing AI to provide personalized content to users. Information and services are tailored for individual users based on their behaviors and preferences. \u00a0<\/p><p>\u00a0<\/p><h2>What are some pitfalls of relying on AI for government websites?<\/h2><p>In the words of former President Ronald Reagan, \u201cTrust but verify.\u201d<\/p><p>AI-generated information tends to be surface-level. While information can be amazingly on target, there is the possibility of nuanced inaccuracies or true misinformation.<\/p><p>Here\u2019s an example of how AI can miss the mark:<\/p><p>\u00a0<\/p><h3>Reasons to be cautious of AI<\/h3><p>A ChatGPT query concerning examples of AI applications currently deployed on county and municipal government websites resulted in the following response:\u00a0<\/p><p><em>\u201cSan Francisco implemented a chatbot on its website to assist residents with common inquiries, report issues, and find information about city services. This chatbot aimed to provide quick and efficient customer support.\u201d<\/em><\/p><p>A review of the website for the City of San Francisco reveals that this is not the case. What was likely being referenced was an entirely separate site, <a href=\"https:\/\/censusgpt.com\/sf\">San Francisco GPT<\/a>. This site, however, is still very much in its beta form, and is not integrated into the official website for the city.\u00a0<\/p><p>In addition to widely reported inaccuracies, here are six additional reasons to exercise caution before diving too deep or too fast into AI at this point. \u00a0<\/p><ul><li><strong>Accessibility<\/strong>. AI applications, if not designed and tested with Web Content Accessibility Guidelines in mind, can result in accessibility issues for people with disabilities.\u00a0<\/li><li><strong>Privacy and Data Security<\/strong>. AI applications often involve collecting and processing user data. Robust systems need to be in place to protect this information. Data breaches or misuse can have serious legal and reputational consequences.<\/li><li><strong>Bias and Fairness<\/strong>. AI models can inherit biases from the data they are trained on. If these biases are not properly addressed, they can lead to unfair or discriminatory outcomes, which is especially problematic for government services.<\/li><li><strong>Transparency and Accountability<\/strong>: Transparency in decision-making is a fundamental principle in government. AI systems can be complex, making it challenging to explain their decisions, which can erode public trust.\u00a0<\/li><li><strong>Resource Allocation<\/strong>. Developing and maintaining AI applications can be a resource-intensive use of taxpayer dollars. Costs need to be justified.\u00a0<\/li><li><strong>Vendor Dependence<\/strong>. Many governments rely on third-party vendors to provide AI solutions. As open-source enthusiasts, we at Promet Source vigorously caution against the potential perils of vendor lock-in and data ownership.\u00a0<\/li><\/ul><p>While each of the above six factors are significant, this is not to say that we at Promet are not 100% on board with the possibilities and potential of AI for county and municipal government websites. New challenges are inherent to new technology.<\/p><p>What\u2019s important is to be aware of issues as they emerge and ensure that they are addressed ethically and efficiently.<\/p><p>\u00a0<\/p><h2>Drupal AI modules that can be worked into public sector sites right now<\/h2><p>As was perceptively anticipated in an <a href=\"https:\/\/www.prometsource.com\/blog\/AI-for-Drupal\">AI applications for Drupal blog<\/a> published on this site earlier this year by Sonal Bendle, 2023 has shaped up to be the year that AI catapulted past the hype and into the mainstream of life and work \u2013 as well as <a href=\"https:\/\/www.prometsource.com\/services\/drupal-development\">Drupal development<\/a>.\u00a0<\/p><p>Here are some exciting new Drupal AI module developments can be deployed right now to leverage the potential of AI within government websites:<\/p><ul><li><a href=\"https:\/\/www.drupal.org\/project\/open_ai_metadata\"><strong>Open AI Metadata<\/strong><\/a> uses Open AI to generate meta description for different content types.\u00a0<\/li><li>The <a href=\"https:\/\/www.drupal.org\/project\/ai_interpolator\"><strong>AI Interpolator<\/strong><\/a> module is an API enabler to aid in the transformation or interpolation of one field into something else \u2013 such as descriptive text into an image.\u00a0<\/li><li><a href=\"https:\/\/www.drupal.org\/project\/ai_interpolator_openai\"><strong>The AI Interpolator Open AI<\/strong><\/a> module is a plugin for the AI Interpolator module that makes it possible to use the power of AI to manipulate nodes, entities, blocks, and other content types.\u00a0<\/li><li>The <a href=\"https:\/\/www.drupal.org\/project\/openai_translation\">Open AI Translation Toolbox<\/a> is a module designed for to provide an efficient means to produce translations for multilingual websites. It leverages the capabilities of the OpenAI platform, including Azure OpenAI, to generate accurate translations for all enabled languages on a Drupal site.\u00a0<\/li><li><a href=\"https:\/\/www.drupal.org\/project\/openai\">Open AI \/ Chat GPT \/ AI Search Integration<\/a>. OpenAI is the company behind artificial generational intelligence products that power applications such as ChatGPT, GPT-3, and GitHub CoPilot. The\u00a0Open AI \/ Chat GPT \/ AI Search Integration module aims to provide a suite of modules and an API foundation for OpenAI integration in Drupal for generating text content, images, content analysis and more, with a goal of augmenting and adding assistive AI tech and leveraging OpenAI API services in Drupal.\u00a0<\/li><li><a href=\"https:\/\/www.drupal.org\/project\/openai_images\">Open AI Images<\/a> is a Drupal module that leverages the OpenAI API to generate images from text descriptions. This module enables the effortless transformation of textual content into images. Using the OpenAI API's advanced natural language processing capabilities, the module interprets the provided text and generates corresponding images that capture the essence of the description. The generated images can then be saved as media entities on a Drupal site\u2019s media library, ensuring easy access and management.<\/li><li>The <a href=\"https:\/\/www.drupal.org\/project\/ai_image\"><strong>Artificial intelligence Image Generator<\/strong><\/a> module provides a CKEditor 5 plugin to generate images using artificial intelligence.<\/li><li>The <a href=\"https:\/\/www.drupal.org\/project\/leap_ai\"><strong>Leap AI<\/strong><\/a> module enables the remote generation images via the Leap AI (https:\/\/tryleap.ai\/). It provides a media source plugin that allows for the creation, configuration, and management AI-generated images directly within a Drupal site \u2013 allowing for dynamic and customizable visual content.\u00a0<\/li><li><a href=\"https:\/\/www.drupal.org\/project\/augmentor\"><strong>Augmentor AI<\/strong><\/a><strong> <\/strong>is an AI framework for Drupal which allows for the easy integration of disparate AI systems into Drupal, providing a pluggable ecosystem for managing a variety of AI services such as GPT3, ChatGPT, NLP Cloud, Google Cloud Vision and many more.<\/li><li><a href=\"https:\/\/www.drupal.org\/project\/ai_connect\"><strong>AI Connect<\/strong><\/a> is a powerful Drupal module that serves as a bridge between Drupal and AI-powered services, and is designed to fast track content creation by seamlessly integrating with cutting-edge AI technology.\u00a0<\/li><li><a href=\"https:\/\/www.drupal.org\/project\/aiwork\"><strong>AI Work<\/strong><\/a> is a backend module that end users will not interact with directly. It serves as a flexible system and data structure creation tool for building AI apps and agents.\u00a0The\u00a0<a href=\"https:\/\/www.drupal.org\/project\/aichat\">AI chat user interface<\/a> will be first module to use AI Work as a default backend.<\/li><li><a href=\"https:\/\/www.drupal.org\/project\/search_api_ai\"><strong>Search API AI<\/strong><\/a> is a cutting-edge module that provides a collection of tools to integrate artificial intelligence and advanced search capabilities into a Drupal site. By leveraging the OpenAI Embedding API and storing vectors in Pinecone, this module enables the creation of powerful, AI-driven search experiences.<\/li><\/ul><p>This is a short list and a start concerning Drupal\u2019s depth and breadth of potential within AI.\u00a0<\/p><p>Interested in pulling it all together \u2013 leveraging the power of Drupal alongside the potential of innovations in AI module development? That\u2019s what we do. <a href=\"https:\/\/www.prometsource.com\/contact\">Let\u2019s talk right now<\/a> about AI features and functions that can take your website to the next level and beyond.<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_provus_publish_date": [
+        {
+            "value": "2023-11-07"
+        }
+    ]
+}
